@@ -89,3 +89,15 @@ sent to the phone.
 
 **Confirm with Candle Boutique:** the bank account for transfers (the Zochil SMS template referenced
 `{{bank_accounts}}`, but no account number is public).
+
+## 1.3 eBarimt setup
+
+Zochil had no eBarimt setting for this shop (`regno: null`).
+
+1. Collect from Candle Boutique: TIN (company or individual), district code, VAT status, product classification
+   codes (candles / home fragrance).
+2. Register for **PosAPI 3.0** (ebarimt.mn → Business → PosAPI) and install the PosAPI service.
+3. **Settings → eBarimt → Add**: PosAPI URL, TIN, district code, VAT switches; assign it to the website pipeline.
+
+Website (done): checkout asks «Хувь хүн» or «Байгууллага»; a company needs a 7-digit registry number, validated
+on the server.
