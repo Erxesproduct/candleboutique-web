@@ -1,0 +1,3020 @@
+{
+ "source": "zochil",
+ "updatedAt": "2026-11-17",
+ "groups": [
+  {
+   "id": "own",
+   "name": "Candle Boutique лаа",
+   "blurb": "Улаанбаатарт гар аргаар цутгасан"
+  },
+  {
+   "id": "brand",
+   "name": "Албан ёсны брэндүүд",
+   "blurb": "Монголд албан ёсны эрхтэйгээр борлуулдаг"
+  },
+  {
+   "id": "extra",
+   "name": "Refill, хэрэгсэл",
+   "blurb": "Лаагаа удаан хэрэглэх"
+  }
+ ],
+ "collections": [
+  {
+   "id": "minimal",
+   "group": "own",
+   "name": "Minimal Collection",
+   "blurb": "Керамик савтай, шар буурцагны тосоор хийсэн лаа. Савыг нь лаа дууссаны дараа ваар, сав болгон ашиглаж болно.",
+   "zochil": [
+    217150
+   ],
+   "count": 4
+  },
+  {
+   "id": "basic",
+   "group": "own",
+   "name": "Basic Collection",
+   "blurb": "Цэвэр шар буурцагны тос, 5% анхилуун үнэр. Модон таг, гар аргаар цутгасан өдөр тутмын лаа.",
+   "zochil": [
+    52482
+   ],
+   "count": 4
+  },
+  {
+   "id": "memories",
+   "group": "own",
+   "name": "Memories Collection",
+   "blurb": "Парисын үдэш, Балтийн тэнгис, Досон: дурсамжийг сэдрээх дөрвөн үнэр.",
+   "zochil": [
+    52483
+   ],
+   "count": 4
+  },
+  {
+   "id": "marble",
+   "group": "own",
+   "name": "Marble Collection",
+   "blurb": "Гантиг хээтэй сав, 5% цэвэр эфирийн тос (essential oil): сарнай, хуш, мэлрэг.",
+   "zochil": [
+    52485
+   ],
+   "count": 3
+  },
+  {
+   "id": "white",
+   "group": "own",
+   "name": "The White Collection",
+   "blurb": "Цагаан сав, алтан таг, бэлгийн хайрцагтай. 8% анхилуун үнэр.",
+   "zochil": [
+    52490
+   ],
+   "count": 1
+  },
+  {
+   "id": "matte-black",
+   "group": "own",
+   "name": "Matte Black Collection",
+   "blurb": "Матт хар сав, «intentional» хайрцаг. 8% анхилуун үнэр.",
+   "zochil": [
+    52491
+   ],
+   "count": 2
+  },
+  {
+   "id": "asa",
+   "group": "own",
+   "name": "ASA Collection",
+   "blurb": "5% цэвэр эфирийн тос, даавуун уутанд савласан 180 гр лаа.",
+   "zochil": [
+    52488
+   ],
+   "count": 1
+  },
+  {
+   "id": "ldc",
+   "group": "brand",
+   "name": "Lauren Dickinson Clarke",
+   "origin": "Англи",
+   "blurb": "Английн зураач Лорен Дикинсон Кларкийн бэхээр зурсан эмэгтэй дүр бүхий фарфор лаа. Монголд анх удаа албан ёсны эрхтэйгээр.",
+   "zochil": [
+    87869
+   ],
+   "count": 4
+  },
+  {
+   "id": "amoln",
+   "group": "brand",
+   "name": "Amoln",
+   "origin": "Швед",
+   "blurb": "Шведийн Малмө хотын брэнд. «Moln» нь шведээр «үүл»: бүдэг цэнхэр, матт гадаргуутай сав.",
+   "zochil": [
+    87870
+   ],
+   "count": 4
+  },
+  {
+   "id": "refill",
+   "group": "extra",
+   "name": "Refill",
+   "blurb": "Хоосорсон шилэн саваа дахин дүүргэх лаа. Basic, Memories, Green цуглуулгад.",
+   "zochil": [],
+   "count": 3
+  },
+  {
+   "id": "tools",
+   "group": "extra",
+   "name": "Лааны хэрэгсэл",
+   "blurb": "Лав хайлуулагч, урт шүдэнз.",
+   "zochil": [
+    107913
+   ],
+   "count": 2
+  }
+ ],
+ "products": [
+  {
+   "id": 544732,
+   "slug": "minimal-green",
+   "name": "Minimal Green",
+   "subtitle": null,
+   "collection": "minimal",
+   "price": 27930,
+   "compareAt": 39900,
+   "stock": 6,
+   "featured": true,
+   "createdAt": "2024-10-24",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Шар буурцаг"
+    },
+    {
+     "label": "Сав",
+     "value": "Керамик"
+    },
+    {
+     "label": "Жин",
+     "value": "180 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "20–30 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "MINIMAL COLLECTION",
+    "Керамик савлагаатай",
+    "Шар буурцагны үрээр хийсэн",
+    "Асах хугацаа: 20-30 цаг",
+    "Хэмжээ: 180 гр"
+   ],
+   "images": [
+    {
+     "src": "/images/p/minimal-green.webp",
+     "w": 933,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/minimal-green-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/minimal-green-2.webp",
+     "w": 933,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/minimal-green-2-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/minimal-green-3.webp",
+     "w": 933,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/minimal-green-3-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/minimal-green-4.webp",
+     "w": 933,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/minimal-green-4-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 544731,
+   "slug": "minimal-red",
+   "name": "Minimal Red",
+   "subtitle": null,
+   "collection": "minimal",
+   "price": 27930,
+   "compareAt": 39900,
+   "stock": 7,
+   "featured": true,
+   "createdAt": "2024-10-24",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Шар буурцаг"
+    },
+    {
+     "label": "Сав",
+     "value": "Керамик"
+    },
+    {
+     "label": "Жин",
+     "value": "180 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "20–30 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "MINIMAL COLLECTION",
+    "Керамик савлагаатай",
+    "Шар буурцагны үрээр хийсэн",
+    "Асах хугацаа: 20-30 цаг",
+    "Хэмжээ: 180 гр"
+   ],
+   "images": [
+    {
+     "src": "/images/p/minimal-red.webp",
+     "w": 933,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/minimal-red-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/minimal-red-2.webp",
+     "w": 933,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/minimal-red-2-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/minimal-red-3.webp",
+     "w": 933,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/minimal-red-3-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 544730,
+   "slug": "minimal-grey",
+   "name": "Minimal Grey",
+   "subtitle": null,
+   "collection": "minimal",
+   "price": 27930,
+   "compareAt": 39900,
+   "stock": 7,
+   "featured": true,
+   "createdAt": "2024-10-24",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Шар буурцаг"
+    },
+    {
+     "label": "Сав",
+     "value": "Керамик"
+    },
+    {
+     "label": "Жин",
+     "value": "180 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "20–30 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "MINIMAL COLLECTION",
+    "Керамик савлагаатай",
+    "Шар буурцагны үрээр хийсэн",
+    "Асах хугацаа: 20-30 цаг",
+    "Хэмжээ: 180 гр"
+   ],
+   "images": [
+    {
+     "src": "/images/p/minimal-grey.webp",
+     "w": 933,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/minimal-grey-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/minimal-grey-2.webp",
+     "w": 933,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/minimal-grey-2-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 544729,
+   "slug": "minimal-dark-grey",
+   "name": "Minimal Dark Grey",
+   "subtitle": null,
+   "collection": "minimal",
+   "price": 27930,
+   "compareAt": 39900,
+   "stock": 8,
+   "featured": true,
+   "createdAt": "2024-10-24",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Шар буурцаг"
+    },
+    {
+     "label": "Сав",
+     "value": "Керамик"
+    },
+    {
+     "label": "Жин",
+     "value": "180 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "20–30 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "MINIMAL COLLECTION",
+    "Керамик савлагаатай",
+    "Шар буурцагны үрээр хийсэн",
+    "Асах хугацаа: 20-30 цаг",
+    "Хэмжээ: 180 гр"
+   ],
+   "images": [
+    {
+     "src": "/images/p/minimal-dark-grey.webp",
+     "w": 933,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/minimal-dark-grey-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/minimal-dark-grey-2.webp",
+     "w": 933,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/minimal-dark-grey-2-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/minimal-dark-grey-3.webp",
+     "w": 800,
+     "h": 1200,
+     "thumb": {
+      "src": "/images/p/minimal-dark-grey-3-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 161585,
+   "slug": "ocean-mist",
+   "name": "Ocean Mist",
+   "subtitle": null,
+   "collection": "basic",
+   "price": 27300,
+   "compareAt": 39000,
+   "stock": 0,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": "Далайн хаялга",
+   "notes": {
+    "top": [
+     "Киви",
+     "Лийр"
+    ],
+    "heart": [
+     "Базилик",
+     "Лаванда",
+     "Сараана цэцэгс",
+     "Далайн үнэр"
+    ],
+    "base": [
+     "Амбер"
+    ]
+   },
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Цэвэр шар буурцаг"
+    },
+    {
+     "label": "Үнэр",
+     "value": "5% анхилуун үнэр"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    },
+    {
+     "label": "Жин",
+     "value": "200 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "48 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "Жин: 230гр. Асах хугацаа: 60цаг"
+   ],
+   "images": [
+    {
+     "src": "/images/p/ocean-mist.webp",
+     "w": 961,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/ocean-mist-t.webp",
+      "w": 600,
+      "h": 499
+     }
+    },
+    {
+     "src": "/images/p/ocean-mist-2.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/ocean-mist-2-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    }
+   ]
+  },
+  {
+   "id": 161584,
+   "slug": "english-pear-and-freesia",
+   "name": "English Pear & Freesia",
+   "subtitle": null,
+   "collection": "basic",
+   "price": 27300,
+   "compareAt": 39000,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": "Англи лийр + Фриза цэцэг",
+   "notes": {
+    "top": [
+     "Лийр",
+     "Амтат гуа"
+    ],
+    "heart": [
+     "Фрези цэцэг",
+     "Сарнайн охь"
+    ],
+    "base": [
+     "Заар",
+     "Пачули",
+     "Гишүүнэ",
+     "Хув"
+    ]
+   },
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Цэвэр шар буурцаг"
+    },
+    {
+     "label": "Үнэр",
+     "value": "5% анхилуун үнэр"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    },
+    {
+     "label": "Жин",
+     "value": "200 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "48 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "Жин: 230гр. Асах хугацаа: 60цаг"
+   ],
+   "images": [
+    {
+     "src": "/images/p/english-pear-and-freesia.webp",
+     "w": 960,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/english-pear-and-freesia-t.webp",
+      "w": 600,
+      "h": 500
+     }
+    },
+    {
+     "src": "/images/p/english-pear-and-freesia-2.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/english-pear-and-freesia-2-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    },
+    {
+     "src": "/images/p/english-pear-and-freesia-3.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/english-pear-and-freesia-3-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    },
+    {
+     "src": "/images/p/english-pear-and-freesia-4.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/english-pear-and-freesia-4-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    }
+   ]
+  },
+  {
+   "id": 161583,
+   "slug": "wild-bluebells",
+   "name": "Wild Bluebells",
+   "subtitle": null,
+   "collection": "basic",
+   "price": 27300,
+   "compareAt": 39000,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": "Зэрлэг хонхон цэцэгс",
+   "notes": {
+    "top": [
+     "Хонхон цэцэг",
+     "Голт бор"
+    ],
+    "heart": [
+     "Жасмин",
+     "Хөндийн сараана цэцэгс",
+     "нохойн хошууны үр"
+    ],
+    "base": [
+     "Заар",
+     "Хув"
+    ]
+   },
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Цэвэр шар буурцаг"
+    },
+    {
+     "label": "Үнэр",
+     "value": "5% анхилуун үнэр"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    },
+    {
+     "label": "Жин",
+     "value": "200 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "48 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "Эне удаагийн танилцуулж буй лаа маань «Basic Collection” юм. Цэвэр шар буурцагны тосны найрлагатай ба 5% ийн анхилуун үнэртний найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/wild-bluebells.webp",
+     "w": 931,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/wild-bluebells-t.webp",
+      "w": 600,
+      "h": 516
+     }
+    },
+    {
+     "src": "/images/p/wild-bluebells-2.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/wild-bluebells-2-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    },
+    {
+     "src": "/images/p/wild-bluebells-3.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/wild-bluebells-3-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    }
+   ]
+  },
+  {
+   "id": 161582,
+   "slug": "lime-basil-and-mandarin",
+   "name": "Lime Basil & Mandarin",
+   "subtitle": null,
+   "collection": "basic",
+   "price": 27300,
+   "compareAt": 39000,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": "Лайм Базилик + Мандарин",
+   "notes": {
+    "top": [
+     "Лайм",
+     "Мандарин",
+     "жүрж болон бэргамот"
+    ],
+    "heart": [
+     "Базилик",
+     "Ганга",
+     "Цахилдаг",
+     "Голт бор"
+    ],
+    "base": [
+     "Ветивэр ургамал",
+     "Пачули"
+    ]
+   },
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Цэвэр шар буурцаг"
+    },
+    {
+     "label": "Үнэр",
+     "value": "5% анхилуун үнэр"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    },
+    {
+     "label": "Жин",
+     "value": "200 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "48 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "Эне удаагийн танилцуулж буй лаа маань «Basic Collection” юм. Цэвэр шар буурцагны тосны найрлагатай ба 5% ийн анхилуун үнэртний найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/lime-basil-and-mandarin.webp",
+     "w": 873,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/lime-basil-and-mandarin-t.webp",
+      "w": 600,
+      "h": 550
+     }
+    },
+    {
+     "src": "/images/p/lime-basil-and-mandarin-2.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/lime-basil-and-mandarin-2-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    },
+    {
+     "src": "/images/p/lime-basil-and-mandarin-3.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/lime-basil-and-mandarin-3-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    }
+   ]
+  },
+  {
+   "id": 161581,
+   "slug": "evening-in-paris",
+   "name": "Evening in Paris",
+   "subtitle": null,
+   "collection": "memories",
+   "price": 41300,
+   "compareAt": 59000,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": "Парисын үдэш",
+   "notes": {
+    "top": [
+     "Бэрсүүт жүрж",
+     "халуун орны жимс",
+     "Бөөрөлзгөнө"
+    ],
+    "heart": [
+     "Жүржийн ханд",
+     "Ногоон цай",
+     "Цагаан сарнай",
+     "Жасмин",
+     "Навч",
+     "Үхрийн нүд"
+    ],
+    "base": [
+     "Агар мод",
+     "Заар",
+     "Хув",
+     "Чихэр"
+    ]
+   },
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Цэвэр шар буурцаг"
+    },
+    {
+     "label": "Үнэр",
+     "value": "5% анхилуун үнэр"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    },
+    {
+     "label": "Жин",
+     "value": "200 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "48 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "Эне удаагийн танилцуулж буй лаа маань «Memories Collection” юм. Цэвэр шар буурцагны тосны найрлагатай ба 5% ийн анхилуун үнэртний найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/evening-in-paris.webp",
+     "w": 800,
+     "h": 1077,
+     "thumb": {
+      "src": "/images/p/evening-in-paris-t.webp",
+      "w": 446,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/evening-in-paris-2.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/evening-in-paris-2-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    }
+   ]
+  },
+  {
+   "id": 161580,
+   "slug": "ying-ylang-lavender",
+   "name": "Ying Ylang Lavender",
+   "subtitle": null,
+   "collection": "memories",
+   "price": 41300,
+   "compareAt": 59000,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": "Арга билгийн лаванда",
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Цэвэр шар буурцаг"
+    },
+    {
+     "label": "Үнэр",
+     "value": "5% анхилуун үнэр"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    },
+    {
+     "label": "Жин",
+     "value": "200 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "48 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "Эне удаагийн танилцуулж буй лаа маань «Memories Collection” юм. Цэвэр шар буурцагны тосны найрлагатай ба 5% ийн анхилуун үнэртний найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/ying-ylang-lavender.webp",
+     "w": 800,
+     "h": 860,
+     "thumb": {
+      "src": "/images/p/ying-ylang-lavender-t.webp",
+      "w": 558,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/ying-ylang-lavender-2.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/ying-ylang-lavender-2-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    }
+   ]
+  },
+  {
+   "id": 161579,
+   "slug": "baltic-amber",
+   "name": "Baltic Amber",
+   "subtitle": null,
+   "collection": "memories",
+   "price": 41300,
+   "compareAt": 59000,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": "Балтийн тэнгис",
+   "notes": {
+    "top": [
+     "Хув"
+    ],
+    "heart": [
+     "Зандан мод"
+    ],
+    "base": [
+     "Ванилла"
+    ]
+   },
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Цэвэр шар буурцаг"
+    },
+    {
+     "label": "Үнэр",
+     "value": "5% анхилуун үнэр"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    },
+    {
+     "label": "Жин",
+     "value": "200 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "48 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "Эне удаагийн танилцуулж буй лаа маань «Memories Collection” юм. Цэвэр шар буурцагны тосны найрлагатай ба 5% ийн анхилуун үнэртний найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/baltic-amber.webp",
+     "w": 800,
+     "h": 1109,
+     "thumb": {
+      "src": "/images/p/baltic-amber-t.webp",
+      "w": 433,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/baltic-amber-2.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/baltic-amber-2-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    },
+    {
+     "src": "/images/p/baltic-amber-3.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/baltic-amber-3-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    }
+   ]
+  },
+  {
+   "id": 161578,
+   "slug": "doson",
+   "name": "Doson",
+   "subtitle": null,
+   "collection": "memories",
+   "price": 41300,
+   "compareAt": 59000,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": "Досон",
+   "notes": {
+    "top": [
+     "Нимбэг",
+     "Гаа"
+    ],
+    "heart": [
+     "Хөндийн сараана цэцэгс",
+     "Башир цэцэг",
+     "синнамон",
+     "Лавандаа"
+    ],
+    "base": [
+     "Заар",
+     "Хув"
+    ]
+   },
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Цэвэр шар буурцаг"
+    },
+    {
+     "label": "Үнэр",
+     "value": "5% анхилуун үнэр"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    },
+    {
+     "label": "Жин",
+     "value": "200 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "48 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "Эне удаагийн танилцуулж буй лаа маань «Memories Collection” юм. Цэвэр шар буурцагны тосны найрлагатай ба 5% ийн анхилуун үнэртний найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/doson.webp",
+     "w": 800,
+     "h": 856,
+     "thumb": {
+      "src": "/images/p/doson-t.webp",
+      "w": 561,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/doson-2.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/doson-2-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    }
+   ]
+  },
+  {
+   "id": 161560,
+   "slug": "rose",
+   "name": "Rose",
+   "subtitle": null,
+   "collection": "marble",
+   "price": 35000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Үнэр",
+     "value": "5% цэвэр эфирийн тос"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "5% ийн цэвэр эфирийн тосны /essential oil/ найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/rose.webp",
+     "w": 800,
+     "h": 981,
+     "thumb": {
+      "src": "/images/p/rose-t.webp",
+      "w": 489,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 161559,
+   "slug": "cedarwood",
+   "name": "Cedarwood",
+   "subtitle": null,
+   "collection": "marble",
+   "price": 35000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Үнэр",
+     "value": "5% цэвэр эфирийн тос"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "5% ийн цэвэр эфирийн тосны /essential oil/ найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/cedarwood.webp",
+     "w": 800,
+     "h": 966,
+     "thumb": {
+      "src": "/images/p/cedarwood-t.webp",
+      "w": 497,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 161557,
+   "slug": "jasmine",
+   "name": "Jasmine",
+   "subtitle": null,
+   "collection": "marble",
+   "price": 35000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Үнэр",
+     "value": "5% цэвэр эфирийн тос"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "5% ийн цэвэр эфирийн тосны /essential oil/ найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/jasmine.webp",
+     "w": 800,
+     "h": 984,
+     "thumb": {
+      "src": "/images/p/jasmine-t.webp",
+      "w": 488,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 161569,
+   "slug": "dark-rose-amber",
+   "name": "Dark Rosé Amber",
+   "subtitle": null,
+   "collection": "white",
+   "price": 70000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": null,
+   "notes": {
+    "top": [
+     "Сарнай",
+     "лили",
+     "нил ягаан"
+    ],
+    "heart": [
+     "Чихэрлэг хув"
+    ],
+    "base": [
+     "Кипарис",
+     "заар"
+    ]
+   },
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Цэвэр шар буурцаг"
+    },
+    {
+     "label": "Үнэр",
+     "value": "8% анхилуун үнэр"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "«White Collection” юм. Цэвэр шар буурцагны тосны найрлагатай ба 8% ийн анхилуун үнэртний найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/dark-rose-amber.webp",
+     "w": 800,
+     "h": 1200,
+     "thumb": {
+      "src": "/images/p/dark-rose-amber-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/dark-rose-amber-2.webp",
+     "w": 800,
+     "h": 1199,
+     "thumb": {
+      "src": "/images/p/dark-rose-amber-2-t.webp",
+      "w": 400,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/dark-rose-amber-3.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/dark-rose-amber-3-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    }
+   ]
+  },
+  {
+   "id": 161563,
+   "slug": "matte-black-pressure",
+   "name": "Matte Black · Pressure",
+   "subtitle": null,
+   "collection": "matte-black",
+   "price": 75000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Цэвэр шар буурцаг"
+    },
+    {
+     "label": "Үнэр",
+     "value": "8% анхилуун үнэр"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "«Matte Black Collection” юм. Цэвэр шар буурцагны тосны найрлагатай ба 8% ийн анхилуун үнэртний найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/matte-black-pressure.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/matte-black-pressure-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    }
+   ]
+  },
+  {
+   "id": 161562,
+   "slug": "matte-black-intense",
+   "name": "Matte Black · Intense",
+   "subtitle": null,
+   "collection": "matte-black",
+   "price": 75000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Тос",
+     "value": "Цэвэр шар буурцаг"
+    },
+    {
+     "label": "Үнэр",
+     "value": "8% анхилуун үнэр"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "«Matte Black Collection” юм. Цэвэр шар буурцагны тосны найрлагатай ба 8% ийн анхилуун үнэртний найрлагатай гар аргаар бэлтгэсэн лаа юм."
+   ],
+   "images": [
+    {
+     "src": "/images/p/matte-black-intense.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/matte-black-intense-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    },
+    {
+     "src": "/images/p/matte-black-intense-2.webp",
+     "w": 800,
+     "h": 1060,
+     "thumb": {
+      "src": "/images/p/matte-black-intense-2-t.webp",
+      "w": 453,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 161597,
+   "slug": "oin-jim",
+   "name": "Oin Jim",
+   "subtitle": null,
+   "collection": "asa",
+   "price": 25000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": "Агар модны үнэртэй",
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Үнэр",
+     "value": "5% цэвэр эфирийн тос"
+    },
+    {
+     "label": "Хийц",
+     "value": "Гар аргаар"
+    },
+    {
+     "label": "Жин",
+     "value": "180 гр"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "30 цаг"
+    }
+   ],
+   "story": [],
+   "fits": [],
+   "zochilShort": [
+    "Жин: 180гр. Асах хугацаа: 25-30цаг"
+   ],
+   "images": [
+    {
+     "src": "/images/p/oin-jim.webp",
+     "w": 813,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/oin-jim-t.webp",
+      "w": 600,
+      "h": 590
+     }
+    },
+    {
+     "src": "/images/p/oin-jim-2.webp",
+     "w": 1200,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/oin-jim-2-t.webp",
+      "w": 600,
+      "h": 400
+     }
+    }
+   ]
+  },
+  {
+   "id": 161608,
+   "slug": "provocateur",
+   "name": "Provocateur",
+   "subtitle": null,
+   "collection": "ldc",
+   "price": 235000,
+   "compareAt": null,
+   "stock": null,
+   "featured": true,
+   "createdAt": "2021-12-02",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Гарал үүсэл",
+     "value": "Англи"
+    },
+    {
+     "label": "Эрх",
+     "value": "Албан ёсны борлуулагч"
+    }
+   ],
+   "story": [
+    "Монголд анх удаа албан ёсны эрхтэйгээр худалдаалж эхэллээ."
+   ],
+   "fits": [],
+   "zochilShort": null,
+   "images": [
+    {
+     "src": "/images/p/provocateur.webp",
+     "w": 799,
+     "h": 799,
+     "thumb": {
+      "src": "/images/p/provocateur-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/provocateur-2.webp",
+     "w": 799,
+     "h": 799,
+     "thumb": {
+      "src": "/images/p/provocateur-2-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/provocateur-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/provocateur-3-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 161607,
+   "slug": "punk",
+   "name": "Punk",
+   "subtitle": null,
+   "collection": "ldc",
+   "price": 235000,
+   "compareAt": null,
+   "stock": null,
+   "featured": true,
+   "createdAt": "2021-12-02",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Гарал үүсэл",
+     "value": "Англи"
+    },
+    {
+     "label": "Эрх",
+     "value": "Албан ёсны борлуулагч"
+    }
+   ],
+   "story": [
+    "Монголд анх удаа албан ёсны эрхтэйгээр худалдаалж эхэллээ."
+   ],
+   "fits": [],
+   "zochilShort": [
+    "Монголд анх удаа албан ёсны эрхтэйгээр худалдаалж эхэллээ.",
+    "Улс: Англи"
+   ],
+   "images": [
+    {
+     "src": "/images/p/punk.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/punk-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/punk-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/punk-2-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 161603,
+   "slug": "ponderer",
+   "name": "Ponderer",
+   "subtitle": null,
+   "collection": "ldc",
+   "price": 235000,
+   "compareAt": null,
+   "stock": null,
+   "featured": true,
+   "createdAt": "2021-12-02",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Гарал үүсэл",
+     "value": "Англи"
+    },
+    {
+     "label": "Эрх",
+     "value": "Албан ёсны борлуулагч"
+    }
+   ],
+   "story": [
+    "Монголд анх удаа албан ёсны эрхтэйгээр худалдаалж эхэллээ."
+   ],
+   "fits": [],
+   "zochilShort": [
+    "Монголд анх удаа албан ёсны эрхтэйгээр худалдаалж эхэллээ.",
+    "Улс: Англи"
+   ],
+   "images": [
+    {
+     "src": "/images/p/ponderer.webp",
+     "w": 799,
+     "h": 799,
+     "thumb": {
+      "src": "/images/p/ponderer-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/ponderer-2.webp",
+     "w": 799,
+     "h": 799,
+     "thumb": {
+      "src": "/images/p/ponderer-2-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/ponderer-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/ponderer-3-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 161602,
+   "slug": "prima-donna",
+   "name": "Prima Donna",
+   "subtitle": null,
+   "collection": "ldc",
+   "price": 235000,
+   "compareAt": null,
+   "stock": null,
+   "featured": true,
+   "createdAt": "2021-12-02",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Гарал үүсэл",
+     "value": "Англи"
+    },
+    {
+     "label": "Эрх",
+     "value": "Албан ёсны борлуулагч"
+    }
+   ],
+   "story": [
+    "Монголд анх удаа албан ёсны эрхтэйгээр худалдаалж эхэллээ."
+   ],
+   "fits": [],
+   "zochilShort": [
+    "Монголд анх удаа албан ёсны эрхтэйгээр худалдаалж эхэллээ.",
+    "Улс: Англи"
+   ],
+   "images": [
+    {
+     "src": "/images/p/prima-donna.webp",
+     "w": 799,
+     "h": 799,
+     "thumb": {
+      "src": "/images/p/prima-donna-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/prima-donna-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/prima-donna-2-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 152747,
+   "slug": "sisu-bouquet",
+   "name": "Sisu Bouquet",
+   "subtitle": null,
+   "collection": "amoln",
+   "price": 215000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-11-06",
+   "scent": "Сараана, уулын цэцэг, заар, инжир модны навч",
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Гарал үүсэл",
+     "value": "Швед"
+    },
+    {
+     "label": "Хэмжээ",
+     "value": "Ø 87 мм, өндөр 100 мм"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "70 хүртэл цаг"
+    },
+    {
+     "label": "Жин",
+     "value": "270 гр"
+    }
+   ],
+   "story": [
+    "Өдөр, шөнийн аль ч цагт таны сэтгэлийн амар амгаланг өгөх Sisi Bouquet лааны найрлагад маш ховор төрлийн цэцэгс, ургамлууд багтсан. Финландын гүн ухаантан болох Сисугийн нэрнээс санаа авсан уг лаа нь сараана, уулын цэцэг, заар, инжир модны навчнаас бүрддэг."
+   ],
+   "fits": [],
+   "zochilShort": [
+    "Бүтээгдэхүүний тодорхойлолт",
+    "Жин 300 г",
+    "Хэмжээ өргөн 87 мм, өндөр 100 мм",
+    "Асах хугацаа 70 хүртэл цаг"
+   ],
+   "images": [
+    {
+     "src": "/images/p/sisu-bouquet.webp",
+     "w": 800,
+     "h": 1000,
+     "thumb": {
+      "src": "/images/p/sisu-bouquet-t.webp",
+      "w": 480,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 152744,
+   "slug": "1945",
+   "name": "1945",
+   "subtitle": null,
+   "collection": "amoln",
+   "price": 215000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-11-06",
+   "scent": "Дорнын сарнай, жүржийн цэцэг, зэрлэг мэлрэг",
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Гарал үүсэл",
+     "value": "Швед"
+    },
+    {
+     "label": "Хэмжээ",
+     "value": "Ø 87 мм, өндөр 100 мм"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "70 хүртэл цаг"
+    },
+    {
+     "label": "Жин",
+     "value": "270 гр"
+    }
+   ],
+   "story": [
+    "1945 онд ОХИНДОО бичсэн ААВЫН захианаас улбаалан гарсан уг лаа нь дорнын сарнай, жүржийн цэцэг, зэрлэг мэлрэг цэцгийн үнэрийг өөртөө шингээсэн.",
+    "Зуслангийн байшинд мод хөрөөдөн, цэцгийн хүлэмжиндээ ажиллаж, гарын сайхан хоолоо хийх аавтайгаа өнгөрүүлсэн зуны сайхан дурсамжийг сэдрээх \"1945\" лаа нь таны өдрийг гэрэлтүүлэх болно."
+   ],
+   "fits": [],
+   "zochilShort": [
+    "Бүтээгдэхүүний тодорхойлолт",
+    "Жин 300 г",
+    "Хэмжээ өргөн 87 мм, өндөр 100 мм",
+    "Асах хугацаа 70 хүртэл цаг"
+   ],
+   "images": [
+    {
+     "src": "/images/p/1945.webp",
+     "w": 799,
+     "h": 996,
+     "thumb": {
+      "src": "/images/p/1945-t.webp",
+      "w": 481,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 152743,
+   "slug": "berrybomb",
+   "name": "BerryBomb",
+   "subtitle": null,
+   "collection": "amoln",
+   "price": 215000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-11-06",
+   "scent": "Бөөрөлзгөнө, тубероза, цээнийн цэцэг",
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Гарал үүсэл",
+     "value": "Швед"
+    },
+    {
+     "label": "Хэмжээ",
+     "value": "Ø 87 мм, өндөр 100 мм"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "70 хүртэл цаг"
+    },
+    {
+     "label": "Жин",
+     "value": "270 гр"
+    }
+   ],
+   "story": [
+    "Байгаль дэлхийн бүх зүйлс зун цагт үр жимсээ дэлгэрүүлж, хэмжээлшгүй их аз жаргалыг бэлэглэдэг."
+   ],
+   "fits": [],
+   "zochilShort": [
+    "Бүтээгдэхүүний тодорхойлолт",
+    "Жин 300 г",
+    "Хэмжээ өргөн 87 мм, өндөр 100 мм",
+    "Асах хугацаа 70 хүртэл цаг"
+   ],
+   "images": [
+    {
+     "src": "/images/p/berrybomb.webp",
+     "w": 800,
+     "h": 996,
+     "thumb": {
+      "src": "/images/p/berrybomb-t.webp",
+      "w": 482,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 152739,
+   "slug": "kassett",
+   "name": "Kassett",
+   "subtitle": null,
+   "collection": "amoln",
+   "price": 215000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-11-06",
+   "scent": "Грекийн инжир, пачули, Исландын мод, усан мэлрэг, галбанум, Төвд сарнай",
+   "notes": null,
+   "variants": [],
+   "specs": [
+    {
+     "label": "Гарал үүсэл",
+     "value": "Швед"
+    },
+    {
+     "label": "Хэмжээ",
+     "value": "Ø 87 мм, өндөр 100 мм"
+    },
+    {
+     "label": "Асах хугацаа",
+     "value": "70 хүртэл цаг"
+    },
+    {
+     "label": "Жин",
+     "value": "270 гр"
+    }
+   ],
+   "story": [
+    "80-90-ээд оны залуус кассет тоглуулагч, чихэвч зүүн гудамжаар нэг холхидог байсан. Тийм ээ, тэдний амьдралыг хөгжимгүйгээр, КАССЕТГҮЙГЭЭР төсөөлөхийн аргагүй. Энэ бол цаг хугацааг эргэн авчрах дахин давтагдашгүй үнэр юм."
+   ],
+   "fits": [],
+   "zochilShort": [
+    "Бүтээгдэхүүний тодорхойлолт",
+    "Жин 300 г",
+    "Хэмжээ өргөн 87 мм, өндөр 100 мм",
+    "Асах хугацаа 70 хүртэл цаг"
+   ],
+   "images": [
+    {
+     "src": "/images/p/kassett.webp",
+     "w": 771,
+     "h": 792,
+     "thumb": {
+      "src": "/images/p/kassett-t.webp",
+      "w": 584,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 273757,
+   "slug": "memories-refill",
+   "name": "Memories Refill",
+   "subtitle": null,
+   "collection": "refill",
+   "price": 29000,
+   "compareAt": null,
+   "stock": 0,
+   "featured": false,
+   "createdAt": "2022-08-26",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [],
+   "story": [],
+   "fits": [
+    "doson",
+    "ying-ylang-lavender",
+    "evening-in-paris",
+    "baltic-amber"
+   ],
+   "zochilShort": null,
+   "images": [
+    {
+     "src": "/images/p/memories-refill.webp",
+     "w": 1400,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/memories-refill-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 273756,
+   "slug": "green-collection-refill",
+   "name": "Green Collection Refill",
+   "subtitle": null,
+   "collection": "refill",
+   "price": 49000,
+   "compareAt": null,
+   "stock": 0,
+   "featured": false,
+   "createdAt": "2022-08-26",
+   "scent": null,
+   "notes": null,
+   "variants": [
+    {
+     "name": "Maple Chai Sweet Cream",
+     "notes": {
+      "top": [
+       "Цагаан гаа",
+       "задь",
+       "жүрж жимсний хальс"
+      ],
+      "heart": [
+       "Агч модны сироп",
+       "синнамон"
+      ],
+      "base": [
+       "Ваниль",
+       "бор элсэн чихэр",
+       "tobacco (тамхи)"
+      ]
+     }
+    },
+    {
+     "name": "Honey+Burbon",
+     "notes": {
+      "top": [
+       "Жүрж жимсний резинэн чихэр",
+       "Энэтхэг огноо жимс",
+       "зөгийн бал"
+      ],
+      "heart": [
+       "Бурбон",
+       "кумарин",
+       "башир цэцэг"
+      ],
+      "base": [
+       "Бор элсэн чихэр",
+       "tobacco (тамхи)"
+      ]
+     }
+    },
+    {
+     "name": "Yuzu Blossom & Hinoki",
+     "notes": {
+      "top": [
+       "Японы юзу цитрус жимс",
+       "лийр",
+       "мандарин"
+      ],
+      "heart": [
+       "Иланг-иланг мод",
+       "чавганы цэцэг"
+      ],
+      "base": [
+       "Японы кипарис цэцэг",
+       "чангаанзны мод",
+       "пачули тос"
+      ]
+     }
+    },
+    {
+     "name": "Cotton Blossom & Tuberose",
+     "notes": {
+      "top": [
+       "Тоор",
+       "жүрж жимсний хальс"
+      ],
+      "heart": [
+       "Хибискус",
+       "булцуут цэцэг"
+      ],
+      "base": [
+       "Sandalwood",
+       "хув"
+      ]
+     }
+    }
+   ],
+   "specs": [],
+   "story": [
+    "Limited Edition «Green Collection»-ийн шилэн саванд зориулсан."
+   ],
+   "fits": [],
+   "zochilShort": null,
+   "images": [
+    {
+     "src": "/images/p/green-collection-refill.webp",
+     "w": 1400,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/green-collection-refill-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 273458,
+   "slug": "basic-refill",
+   "name": "Basic Refill",
+   "subtitle": null,
+   "collection": "refill",
+   "price": 15000,
+   "compareAt": null,
+   "stock": 0,
+   "featured": false,
+   "createdAt": "2022-08-25",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [],
+   "story": [],
+   "fits": [
+    "ocean-mist",
+    "english-pear-and-freesia",
+    "wild-bluebells",
+    "lime-basil-and-mandarin"
+   ],
+   "zochilShort": null,
+   "images": [
+    {
+     "src": "/images/p/basic-refill.webp",
+     "w": 1400,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/basic-refill-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 204494,
+   "slug": "wax-melt-burner",
+   "name": "Wax Melt Burner",
+   "subtitle": "Лав хайлуулагч",
+   "collection": "tools",
+   "price": 20000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2022-03-01",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [],
+   "story": [],
+   "fits": [],
+   "zochilShort": null,
+   "images": [
+    {
+     "src": "/images/p/wax-melt-burner.webp",
+     "w": 800,
+     "h": 1066,
+     "thumb": {
+      "src": "/images/p/wax-melt-burner-t.webp",
+      "w": 450,
+      "h": 600
+     }
+    }
+   ]
+  },
+  {
+   "id": 161593,
+   "slug": "candle-match",
+   "name": "Candle Match",
+   "subtitle": "Лааны урт шүдэнз",
+   "collection": "tools",
+   "price": 5000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2021-12-02",
+   "scent": null,
+   "notes": null,
+   "variants": [],
+   "specs": [],
+   "story": [],
+   "fits": [],
+   "zochilShort": null,
+   "images": [
+    {
+     "src": "/images/p/candle-match.webp",
+     "w": 1292,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/candle-match-t.webp",
+      "w": 600,
+      "h": 372
+     }
+    }
+   ]
+  }
+ ],
+ "banners": [
+  {
+   "id": 11695,
+   "title": "limited Edition",
+   "image": {
+    "src": "/images/banners/11695.webp",
+    "w": 1324,
+    "h": 436
+   }
+  }
+ ],
+ "posts": [
+  {
+   "id": 16339,
+   "slug": "zul-saryn-khelkhee-christmas-wreath",
+   "title": "ЗУЛ САРЫН ХЭЛХЭЭ/ CHRISTMAS WREATH",
+   "date": "2022-11-29",
+   "cover": {
+    "src": "/images/journal/zul-saryn-khelkhee-christmas-wreath.webp",
+    "w": 1400,
+    "h": 933
+   },
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Барууны орнуудад өргөнөөр хэрэглэгддэг байсан зул сарын хэлхээ нь өнөөдөр дэлхийн өнцөг булан бүрт шинэ жилийн ширээгээ чимэглэх нэгэн хэрэгсэл болсон билээ."
+    },
+    {
+     "t": "p",
+     "text": "Энэ төрлийн чимэглэл нь ихэвчлэн нарсны мөчир, дөрвөн лаагаас бүрддэг бөгөөд баярын ширээнд сайхан уур амьсгал төрүүлдэг уламжлалтай."
+    },
+    {
+     "t": "p",
+     "text": "Зул сарын хэлхээний бэлгэдэл нь хэд хэдэн үндсэн утгатай."
+    },
+    {
+     "t": "p",
+     "text": "Зул сарын хэлхээ болон лаа нь дэлхийн бөмбөрцөг, дөрвөн гол цэгийн ач холбогдлыг бэлэгддэг."
+    },
+    {
+     "t": "p",
+     "text": "Тойрог нь мөнх амьдралын бэлгэдэл, ногоон өнгө нь амьдралын утга учир, лаа нь дэлхийг гэрэлтүүлдэг гэрэл хэмээх утгатай."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/zul-saryn-khelkhee-christmas-wreath-1.webp",
+     "w": 500,
+     "h": 318
+    }
+   ]
+  },
+  {
+   "id": 14940,
+   "slug": "lauren-dickinson-clarke-brendiin-mini-muse-tsugluulga-khudal",
+   "title": "LAUREN DICKINSON CLARKE брэндийн MINI MUSE цуглуулга худалдаанд гарлаа",
+   "date": "2022-09-06",
+   "cover": {
+    "src": "/images/journal/lauren-dickinson-clarke-brendiin-mini-muse-tsugluulga-khudal.webp",
+    "w": 720,
+    "h": 1080
+   },
+   "blocks": [
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-brendiin-mini-muse-tsugluulga-khudal-1.webp",
+     "w": 500,
+     "h": 254
+    },
+    {
+     "t": "p",
+     "text": "LAUREN DICKINSON CLARKE брэндийн MINI MUSE цуглуулга худалдаанд гарлаа"
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-brendiin-mini-muse-tsugluulga-khudal-2.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "t": "h",
+     "text": "Lucille Ball"
+    },
+    {
+     "t": "p",
+     "text": "Дүүрэн амьдрал, оргилуун, дэггүй төрх. I Love Lucy киногоороо бүсгүйчүүдийн хайр хүндэтгэлийг хүлээсэн Lucille Ball LDC лааны цуглуулгад дүрээ мөнхөллөө. Lucille дэлгэцийн дүрсэнд хөгжилтэй нэгэн харагддаг ч үнэндээ саад бэрхшээлийг даван туулсан, Холливудын жүжигчдийн замыг сийлсэн, зоримог хүч юм."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-brendiin-mini-muse-tsugluulga-khudal-3.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "t": "h",
+     "text": "Ilona Staller"
+    },
+    {
+     "t": "p",
+     "text": "“Шинэхэн, хүсэл тэмүүлэл, мэдрэмжээр дүүрэн” хэмээх үгс Illona Staller-г илэрхийлдэг. Тачаангуй байдлын илэрхийлэл болсон Ilona Staller уг брэндийн лаанд янаг төрхөө буулгалаа."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-brendiin-mini-muse-tsugluulga-khudal-4.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "t": "h",
+     "text": "Edie Sedgwick"
+    },
+    {
+     "t": "p",
+     "text": "1970-аад оны үед залуусын дунд цоо шинэ трэндийг бий болгосон жүжигчин Edie Sedgwick нь Andy Warhol-ын олон уран бүтээлийг амьдруулж байв. Түүний халимаг үс, тод будалттай алаг нүд одоог хүртэл бүсгүйчүүдийн дунд трэнд болсоор байна."
+    },
+    {
+     "t": "p",
+     "text": "Edie Sedgwick-ээс санаа авсан уг лаа нь хувцас загвар, поп-арт соёлд дурлагч хэн бүхэнд зориулсан загварлаг сонголт юм."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-brendiin-mini-muse-tsugluulga-khudal-5.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "t": "h",
+     "text": "Yoko Ono"
+    },
+    {
+     "t": "p",
+     "text": "60-аад оны энхтайван, хайр дурлал, эрх чөлөөний дуулал болсон Yoko Ono хувьсгалыг мэдрүүлэгч юм. Авангард зураач, богемийн бэлэг тэмдэг Yoko Ono одоог хүртэл энхтайвны төлөө тэмцсээр байна."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-brendiin-mini-muse-tsugluulga-khudal-6.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "t": "h",
+     "text": "Dora Maar"
+    },
+    {
+     "t": "p",
+     "text": "Picasso-ын алдарт бүтээлүүдийн дүр, зүрх шархлуулам хайрын түүхийн эзэн Dora Maar-ыг нулимстай нүдээр дүрслэн буулгалаа. Тэдний харилцаа урлаг, хүсэл тэмүүлэл, хэрүүл тэмцлээр дүүрэн байсан. Эцэст нь Picasso түүнийг орхисноор хайр дурлалдаа шаналсан Dora зовлонг даван туулж чадалгүй хорвоог орхисон түүхтэй."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-brendiin-mini-muse-tsugluulga-khudal-7.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "t": "h",
+     "text": "Wendy O. Williams"
+    },
+    {
+     "t": "p",
+     "text": "Punk лааг зоригтой, хүчирхэг дуу хоолойны эзэн Wendy O. Williams-с санаа авсан. Шок Рокын хатан хаан гэгдэх Wendy O. Williams нь Plasmatics хамтлагийн гоцлол дуучин юм. Хувцаслалт, үс засалтаараа олны анхаарлыг татагч Wendy O. Williams таны доторх дэггүй дүрийг өдөөнө."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-brendiin-mini-muse-tsugluulga-khudal-8.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "t": "h",
+     "text": "Mae Chee Kaew"
+    },
+    {
+     "t": "p",
+     "text": "Жасмин цэцэгсийн үнэр агаарт дэгдэж, горхины чимээ сонсогдох Mae Chee Kaew-ын цэцэрлэгт хүрээлэнд буй мэт мэдрэмжийг уг лаа мэдрүүлнэ. Ponderer лаа нь Mae Chee Kaew-ын гэрэл гэгээт ертөнц, эелдэг, зөөлөн сэтгэлийг дүрсэлсэн бөгөөд танд нам гүм, амар амгалан, эргэцүүлэн бодох мөчийг өгнө."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-brendiin-mini-muse-tsugluulga-khudal-9.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "t": "h",
+     "text": "Kiki De Montparnasse"
+    },
+    {
+     "t": "p",
+     "text": "Энэхүү дур булаам лааг дадаистууд болон сюрреалистуудын төлөөлөл, сэтгэл татам, Kiki De Montparnasse санаа авсан юм. Оньсого мэт гайхалтай дүрүүдийг бүтээсэн Kiki De Montparnasse бүсгүй таны гоо үзэсгэлэнг тодотгох болно."
+    }
+   ]
+  },
+  {
+   "id": 14853,
+   "slug": "khurimyn-sar-laag-kherkhen-bairshuulakh-ve",
+   "title": "ХУРИМЫН САР: ЛААГ ХЭРХЭН БАЙРШУУЛАХ ВЭ?",
+   "date": "2022-08-29",
+   "cover": {
+    "src": "/images/journal/khurimyn-sar-laag-kherkhen-bairshuulakh-ve.webp",
+    "w": 1400,
+    "h": 700
+   },
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Лааг хуримыг романтик, сэтгэл сэргээм болгох ид шидтэй. Учир нь хуримын заалны чимэглэл хэтэрхий тод байхаас илүү байгалийн гэрэлтүүлгийг ашигласан мэт харагдвал ирсэн зочид болон хуримлагч хосуудад тайвшруулах энерги, тайван мэдрэмжийг төрүүлдэг. Ялангуяа зуны цагт outdoor буюу байгалийн үзэсгэлэнт газар хуримаа тэмдэглэх гэж байгаа хосууд лааг үндсэн чимэглэлээ болговол илүү тохиромжтой харагддаг. Мөн лаа нь нүсэр лед гэрэл, тод гэрэлтүүлгээс илүү хямд зардалтай. Лааг шилэн сав, ваар, цэцэгстэй хослуулан хэрхэн романтик чимэглэл хийх талаарх зөвлөмжийг танд хүргэж байна."
+    },
+    {
+     "t": "h",
+     "text": "Хуримын ширээний голд"
+    },
+    {
+     "t": "p",
+     "text": "Ширээний гол хэсэгт лааг байрлуулахдаа бүтээлч байдлаа хэрхэвч алдаж болохгүй. Нарийхан цэцэгс, хэлхээтэй ургамал, нарийхан дэнлүү, өргөн лаа бүхий чимэг оруулахыг зүйлсийг сонгоорой. Оройн хуримын уур амьсгал хэзээд төгс, үлгэрийн мэт харагдах ёстой. Алтлаг өнгийн лааны суурь романтик мэдрэмж төрүүлдэг. Ширээний голд өндөр болон гоёмсог загвартай өргөн лаагаа тавьж, гоёмсог цэцэгсээр хүрээлүүлэн засаарай. Натурал уур амьсгал оруулахын тулд ширээний тавцангаа ногоон, хус модны суурь гэх мэт зүйлсээр чимэглээрэй. Энэ нь байгалийн элементүүдийг нэгэн зэрэг бий болгож, тансаг төрхийг бий болгоно."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/khurimyn-sar-laag-kherkhen-bairshuulakh-ve-1.webp",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "t": "h",
+     "text": "Шатны хэсэгт"
+    },
+    {
+     "t": "p",
+     "text": "Лаа бол хуримын гэрэлтүүлгийг тодорхойлох гол хүчин зүйл юм. Том талбайг гэрэлтүүлэхийн тулд багана, шат дагуулан цэцэгстэй хослуулан лаануудаа байршуулаарай! Лааны зориулалтын шилэн саванд хийвэл илүү романтик, дэгжин харагдана."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/khurimyn-sar-laag-kherkhen-bairshuulakh-ve-2.webp",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "t": "h",
+     "text": "Гадаах болон заалны чимэглэлийн санаанууд"
+    },
+    {
+     "t": "p",
+     "text": "Испани хөвдийг лаатай хослуулан neutral хэрнээ өмнөд-готик уур амьсгалыг бий болгох боломжтой. Орон зайтай зааланд дулаан уур амьсгал нэмэхийн тулд алтлаг өнгийн сууринд өргөн болон нарийн хэмжээтэй лааг газар тавин орчин бүрдүүлж болно. Нүсэр бус минималист сонголт байх болно."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/khurimyn-sar-laag-kherkhen-bairshuulakh-ve-3.webp",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "t": "h",
+     "text": "Үдэшлэгийн ширээ чимэглэх аргууд"
+    },
+    {
+     "t": "p",
+     "text": "Оройн зоогийг төгс харагдуулахын ширээний хоёр талд унждаг гэрэл өлгөөрэй. Харин ширээн дээр ногоон өнгийн ургамал, цэцэгстэй хослуулан чимэглээрэй. Хөвд, алтанзул цэцэг, цахирмаа цэцэгс романтик орчинг бий болгоход тусалдаг."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/khurimyn-sar-laag-kherkhen-bairshuulakh-ve-4.webp",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "t": "h",
+     "text": "Цэцэгс ба лаа"
+    },
+    {
+     "t": "p",
+     "text": "Ногоон ургамал, цэцэгстэй лааг хослуулан байгальд саатаж буй орчинг бүрдүүл! Урт ширээний голд цэцэгс нахиалж буй мэт дүрслэлийг бий болгон, гол хэсэгт лаа байрлуулаарай! Яг л цэцгийн хүлэмжид байгаа мэт орчин үүсгэхийн тулд ширээний доор ч гэсэн цэцгэн суурийг тавиарай!"
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/khurimyn-sar-laag-kherkhen-bairshuulakh-ve-5.webp",
+     "w": 500,
+     "h": 625
+    }
+   ]
+  },
+  {
+   "id": 14813,
+   "slug": "lauren-dickinson-clarke-tuukh-buteelch-baidal-bol-neg-turlii",
+   "title": "LAUREN DICKINSON CLARKE ТҮҮХ: БҮТЭЭЛЧ БАЙДАЛ БОЛ НЭГ ТӨРЛИЙН ЭМЧИЛГЭЭ",
+   "date": "2022-08-26",
+   "cover": {
+    "src": "/images/journal/lauren-dickinson-clarke-tuukh-buteelch-baidal-bol-neg-turlii.webp",
+    "w": 1400,
+    "h": 712
+   },
+   "blocks": [
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-tuukh-buteelch-baidal-bol-neg-turlii-1.webp",
+     "w": 500,
+     "h": 602
+    },
+    {
+     "t": "p",
+     "text": "Лорен Дикинсон Кларк бол Английн зураач, загвар зохион бүтээгч, гоёмсог, хачирхалтай ертөнцийг бүтээгч нэгэн юм. Лааны сав гэхээрээ заавал нэгэн хэвийн бичиг, логогоор дүүрсэн байх ёстой гэж... LAUREN DICKINSON CLARKE брэнд эмэгтэй хүний сэтгэл хөдлөл, зан төрхийг тодорхойлсон өвөрмөц зураглалаар дүүрэн. Тэндээс та домогт уран бүтээлчид, алдартнуудын имидж төрхийг ч харж болно. Бид түүнтэй ажил, амьдрал дахь бүтээлч өнцөг яагаад чухал болох талаар ярилцлаа."
+    },
+    {
+     "t": "p",
+     "text": "ТАНЫ АЖИЛ БОЛОН ДОТООД ЕРТӨНЦИЙН ТАЛААР ИЛҮҮ ИХИЙГ МЭДЭХИЙГ ХҮСЭЖ БАЙНА. ТА ӨӨРИЙН БРЭНДЭЭ ЯАЖ ҮҮСГЭН БАЙГУУЛСАН БЭ?"
+    },
+    {
+     "t": "p",
+     "text": "Миний бүх загвар бэхний дүрслэлээс эхэлдэг. Өдөр тутмын харилцаа, эд зүйлсийг хөгжилтэй, бүтээлч байдлаар илэрхийлэх дуртай. Би бараг л ухаан орсон цагаасаа л зурж, загвар зохион бүтээж эхэлсэн. Харин дөрвөн жилийн өмнөөс \"LDC\" брэндийг гаргасан бөгөөд минут тутамд миний сэтгэлийг догдлуулсаар байгаа нь гайхалтай."
+    },
+    {
+     "t": "h",
+     "text": "ТА АНХ ЯМАР ДИЗАЙНЫГ ЗОХИОСОН БЭ?"
+    },
+    {
+     "t": "p",
+     "text": "Миний анхны загвар бол \"Эзэгтэйн бүтээл\" (доорх зураг). Одоо ч миний хамгийн дуртай бүтээлүүдийн нэг хэвээр байгаа. Би Ромд амарч байхдаа Michelangelo-ны ‘Creation of Adam’ киног үзэж байхдаа зурсан юм. Тэр кино намайг алмайруулж, бүтээл туурвих сэдэл өгсөн гэхэд болно. Би Бурхан болон Адамын гарыг дэгжин эмэгтэйчүүдийн гараар сольж, чамин хувилбарыг зурсан. Би энэ санаанд маш их дурласан учраас хавтан, аяганаас эхлээд ханын бүрээсэнд хүртэл дизайныг хэрэглэсэн."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-tuukh-buteelch-baidal-bol-neg-turlii-2.webp",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "t": "h",
+     "text": "БИЗНЕСИЙН САНААГАА ХААНААС ОЛСОН БЭ?"
+    },
+    {
+     "t": "p",
+     "text": "Би зүрх сэтгэлдээ уран бүтээлч. Гэхдээ өөрийн үнэт зүйл, хүсэл тэмүүллээ брэндээр илэрхийлэхийг хүссэн. Нэг ёсондоо урлаг, гар урлалд дуртай, өөрийгөө шинээр илэрхийлэхийг хүссэн хүмүүстэй нэг баг болон ажиллахыг хүссэн хэрэг."
+    },
+    {
+     "t": "h",
+     "text": "ТАНАЙ БРЭНДИЙН ХАМГИЙН ИХ БОРЛУУЛАЛТТАЙ ЗАГВАР АЛЬ НЬ ВЭ?"
+    },
+    {
+     "t": "p",
+     "text": "Мэдээжийн хэрэг 'The Provocateur' үнэртэй лаа (зураг дээр). Сар бүр 100 орчим хүн тус лааг худалдан авч, хэрэглэгчдийн хүлээлтийг бий болгодог лаа юм."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-tuukh-buteelch-baidal-bol-neg-turlii-3.webp",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "t": "h",
+     "text": "БҮТЭЭЛЧ БАЙДАЛ- УРЛАГТ БОЛОН ХУВИЙН АМЬДРАЛД ЯАГААД ЧУХАЛ ВЭ?"
+    },
+    {
+     "t": "p",
+     "text": "Бүтээлч байдал миний хувьд амьдрахын тулд хоол идэхтэй адил чухал зүйл. Бүтээлч байдал нь хүнийг эмчлэх чадвартай, сэтгэл санааг тайвшруулж, сорилтонд оруулж, асуудлын шийдлийг олоход түлхэц өгдөг."
+    },
+    {
+     "t": "h",
+     "text": "ТАНЫ МЭДРЭМЖИД ХЭРХЭН НӨЛӨӨЛСӨН БЭ?"
+    },
+    {
+     "t": "p",
+     "text": "Бүтээлч байдал ямар ч үед миний сэтгэлийг хөдөлгөсөөр ирсэн. Зураг зурах, баримал хийх нь бясалгалын нэгэн хэлбэр гэж би боддог. Тухайн мөчид анхаарлаа төвлөрүүлснээр шинэ санаа хүлээн авахад оюун ухаанаа нээлттэй байхыг шаарддаг."
+    },
+    {
+     "t": "h",
+     "text": "БҮТЭЭЛЧ БАЙДАЛ ТАНЫ АМЬДРАЛЫН НЭГ ХЭСЭГ БАЙСАН УУ?"
+    },
+    {
+     "t": "p",
+     "text": "Тиймээ. Би багадаа зураг зурж, тоглоомондоо зориулж хувцас оёх дуртай нэгэн байсан. Дунд сургуулиа төгссөний дараа би урлаг гэхээсээ илүү биологи, химийн чиглэлээр суралцаж эхэлсэн. Гэнэтхэн л энэ зам миний явах чиглэл биш гэдгийг ойлгож, урлагийн чиглэлээр сурах болсон."
+    },
+    {
+     "t": "h",
+     "text": "УРАН БҮТЭЭЛЧ БОЛОХООС ӨМНӨ БҮТЭЭЛЧ БАЙДЛЫН ТАЛААР ХҮМҮҮС ЮУ ГЭЖ ЯРЬДАГ БАЙСАН БЭ?"
+    },
+    {
+     "t": "p",
+     "text": "Манай найз бүтээл туурвигчид ихэвчлэн ганцаардмал, эмзэг, мэдрэмтгий хүмүүс байдаг гэж надад хэлж байсан. Гэсэн ч урлаг миний сэтгэлд ойр санагдаж, илүү ихийг мэдэхийг хүссэн."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/lauren-dickinson-clarke-tuukh-buteelch-baidal-bol-neg-turlii-4.webp",
+     "w": 500,
+     "h": 215
+    },
+    {
+     "t": "h",
+     "text": "ТАНАЙ БРЭНДЭД БҮТЭЭЛЧ БАЙДАЛ ЯАГААД ЧУХАЛ ВЭ?"
+    },
+    {
+     "t": "p",
+     "text": "Урлагийн бүтээл зөвхөн оюун ухаан, сэтгэл хөдлөлөө илэрхийлэх бус бусдын нүдийг нээхэд тусалдаг. Жишээлбэл, залуу уран бүтээлчдэд урлаг хязгаарлагдмал сонголтоос зөв шийдвэр гаргаж, шинэ хүсэл тэмүүлэл, ур чадвараа хөгжүүлж, өөртөө итгэх итгэл, шинэ боломжийг нээхэд тусалдаг гэж боддог."
+    }
+   ]
+  },
+  {
+   "id": 14166,
+   "slug": "baigaliin-uneriig-tany-gert-ozo-brend",
+   "title": "Байгалийн үнэрийг таны гэрт: OZOÍ БРЭНД",
+   "date": "2022-07-22",
+   "cover": {
+    "src": "/images/journal/baigaliin-uneriig-tany-gert-ozo-brend.webp",
+    "w": 970,
+    "h": 600
+   },
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Дэлхийн онлайн худалдааны зах зээлд тэргүүлэгч GG брэнд нь өндөр чанарын эфирийн тосоор хийгдсэн 100% ургамлын гаралтай лаа, үнэртүүлэгч, Swarovski шигтгээтэй лааны хэрэгслийг Европын 8 улс, 20 гаруй үндэстэнд нийлүүлдэг. Лааг асаахад л байгалийн тансаг үнэр үнэрлэхүйн мэдрэмжийг тань сэдрээх OZOÍ брэндийн Candleboutique албан ёсны эрхтэйгээр худалдаалж байна."
+    },
+    {
+     "t": "h",
+     "text": "Брэндийн филисофи"
+    },
+    {
+     "t": "p",
+     "text": "Брэндийн хамгийн чухал үзүүлэлт бол бүтээгдэхүүнийг амьтны бие дээр туршаагүй гэдгээрээ хүний биед ямар ч хор нөлөөгүй гэдгийг баталж байгаа юм. Тэд байгалийн үнэрийг лаандаа шингээхийн тулд хамгийн сайн чанарын материалыг хэрэглэдэг. Өөрөөр хэлбэл унаган байгаль дээрээс цэцэг, жимсийг түүж, боловсруулан лааны орц найрлагадаа ашигладаг."
+    },
+    {
+     "t": "h",
+     "text": "Үнэрээр хүний сэтгэлийг эмчлэхүй"
+    },
+    {
+     "t": "p",
+     "text": "Бид бүгд аз жаргалыг хүсдэг. Гэвч үнэндээ аз жаргал гэж юу вэ? Стресстэй өдрийн дараах өөртөө зориулах цаг жинхэнэ аз жаргалыг мэдрүүлдэг. Харин бусад хүмүүст далайн эрэг дээр хэвтэх нь эрх чөлөөг мэдрүүлдэг бол гэр бүл, дотны хүмүүстэйгээ цагийг өнгөрүүлэх нь аз жаргалыг авчирдаг аж. Сэтгэл судлалын судалгаагаар аз жаргалыг субьектив талаас нь сайн сайхан байдлын илэрхийлэл хэмээн тодорхойлжээ."
+    },
+    {
+     "t": "p",
+     "text": "Мэдрэхүйн туршилт: Үнэр таныг аз жаргалтай болгож чадах уу?"
+    },
+    {
+     "t": "p",
+     "text": "Ozoi брэндийн шинжлэх ухааны туршлага дээр үндэслэн бодит хүмүүсээс уг асуултын хариултыг олох гэж нэгэн туршилтыг явуулжээ."
+    },
+    {
+     "t": "p",
+     "text": "Үнэр бидний ой санамжийг сэргээдэг. Өөрөөр хэлбэл хамар нь тархин дахь сэтгэл хөдлөл, ой санамжийн төвтэй шууд холбоотой. Тиймдээ ч бидний хамар ямар нэгэн үнэрийг мэдэрсэн даруйдаа мэдрэмж, дүрсийг хэдхэн секундын дотор тархиндаа буулгадаг."
+    },
+    {
+     "t": "p",
+     "text": "Мандарины үнэр шинэ жилийг санагдуулдаг шиг үнэрээр дамжуулан дурсамжаа бид сэргээж, сэтгэл хөдлөл, мэдрэмжээ оргилуулах нь бий."
+    },
+    {
+     "t": "p",
+     "text": "Өөрөөр хэлбэл үнэр бол ухамсрыг сэдрээх нэг төрлийн дөт зам юм."
+    },
+    {
+     "t": "h",
+     "text": "Ухамсрыг сэдрээгч эфирийн тос"
+    },
+    {
+     "t": "p",
+     "text": "Эфирийн тос нь бидний дааврыг тэнцвэртэй хадгалахад чухал нөлөө үзүүлдэг. Учир нь эрдэмтэд эфирийн тосыг мэдрэхүйн эсүүд байрладаг тархины бүсээр дамжин үнэрлэх эрхтэнд хүрдэг болохыг тогтоожээ. Сэтгэл хөдлөлийг удирдан чиглүүлдэг лимбик системд дохио өгснөөр бидний бие организм хариу үйлдэл үзүүлдэг аж."
+    },
+    {
+     "t": "p",
+     "text": "Аз жаргалтай мөчүүдээ анхилуун үнэрээр сэдрээ!"
+    },
+    {
+     "t": "p",
+     "text": "Ozoi брэндийн “Winter spa” лаа нь цас бударсан өвлийн үдшийг санагдуулах бол “Coffee heaven” өглөөний кофены үнэрийг танд мэдрүүлэх болно."
+    }
+   ]
+  },
+  {
+   "id": 13933,
+   "slug": "laag-uruunii-al-khesegt-bairluulakh-ve",
+   "title": "ЛААГ ӨРӨӨНИЙ АЛЬ ХЭСЭГТ БАЙРЛУУЛАХ ВЭ?",
+   "date": "2022-06-28",
+   "cover": {
+    "src": "/images/journal/laag-uruunii-al-khesegt-bairluulakh-ve.webp",
+    "w": 1324,
+    "h": 436
+   },
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Лаа нь олон жилийн турш гэрийн дотоод засал, гоёл чимэглэлийн гол элемент байсаар ирсэн."
+    },
+    {
+     "t": "p",
+     "text": "Лаа харах мэлмийг баясгаад зогсохгүй сэтгэл санааг сэргээж, орон зайг дулаахан, тав тухтай болгож, орчныг анхилуун үнэртэй болгодог."
+    },
+    {
+     "t": "p",
+     "text": "Лааг бас эмчилгээний зориулалтаар хэрэглэж болдог гээч!"
+    },
+    {
+     "t": "p",
+     "text": "Урт өдрийн дараах стресс, уур бухимдлыг анагаагч шидтэн л гэсэн үг. Хүний биеийн дотоод аураг гэрэлтүүлж, сөрөг энергийг цэвэрлэх хэрэгсэл болгон ашиглаж болно. Ялангуяа бясалгал, иог хийж заншсан хүмүүс лааг тайвшралын гол хэрэглэгдэхүүн гэж үздэг."
+    },
+    {
+     "t": "p",
+     "text": "Гол сэдэв рүүгээ орцгооё! Лааны төрлүүд олон учраас гэрийнхээ аль хэсэгт тавихаас шалтгаалан зөв сонгох шаардлагатай болдог. Мөн гэр болон оффисийн дотоод заслаас хамаарч лааны өнгө, загварыг сонгоно гэсэн үг."
+    },
+    {
+     "t": "h",
+     "text": "Кофе болон хоолны ширээний гол хэсэгт"
+    },
+    {
+     "t": "p",
+     "text": "Хамгийн түгээмэл байрлал болох хоолны болон кофены ширээний гол чимэглэл болгон ашигладаг. Кофены ширээн дээр төрөл бүрийн өнгөтэй, өндөр болон жижиг, дөрвөлжин, од гэх мэт хэлбэртэй лааг сонгон тавьж болно. Гэхдээ лааны өнгө, хэлбэр дүрс буйдан болон дэртэй өнгө дагуу байвал зохицол сайтай харагддаг."
+    },
+    {
+     "t": "p",
+     "text": "Мөн анхилуун үнэртэй лааг гоёмсог цэцэгсийн дэлбээтэй хослуулан хоолны ширээгээ өнгө оруулаарай!"
+    },
+    {
+     "t": "p",
+     "text": "Хоолны ширээний голд лааг байрлуулснаар зөвхөн гоо үзэмж талаасаа бус оройн зоогийг дулаахан, зочломтгой сэтгэгдэл төрүүлэхэд тусалдаг."
+    },
+    {
+     "t": "h",
+     "text": "Цонхны хажууд"
+    },
+    {
+     "t": "p",
+     "text": "Та цонхны дэргэд суунгаа ном уншиж, хүмүүсийг ажиглах дуртай юу? Эсвэл зуслан дахь байшингийн цонхоор намуухан бороо шиврэхийг харж суух дуртай юу? Аль нь ч бай эдгээр мэдрэмжийг илүү бодит болгоход лаа танд тусална. Цонхны тавцанг уйтгартай, эл хуль байлгахаас татгалзаарай! Нарийнхан эсвэл өргөн лааг байгалийн жимс, цонхны гэрэлтэй хослуулан чимэглэж болно."
+    },
+    {
+     "t": "h",
+     "text": "Саравчин дунд"
+    },
+    {
+     "t": "p",
+     "text": "Зуны цагт зуслангийн саравчинд суунгаа цай ууж эсвэл дарс шимэнгээ тайвшралыг мэдрэх шиг жаргал үгүй! Гэхдээ энэ мэдрэмжийг лаагүйгээр төсөөлөхийн аргагүй! Оройн цагт орчныг гэрэлтүүлэхэд анхилам үнэртэй лаа танд тусална."
+    },
+    {
+     "t": "h",
+     "text": "Номонд дурлагсад"
+    },
+    {
+     "t": "p",
+     "text": "Номын хорхойтнуудад зориулсан бяцхан зөвлөмж. Хэрвээ ихэвчлэн оройн цагаар ном уншдаг бол хажуудаа лаа асааж, анхаарал, төвлөрлөө нэмэгдүүлээрэй! Ном уншихад шилтэй лаа илүү тохиромжтой харагддаг. Мөн хажууд нь ногоон болон улаан хүрэн өнгийн алимны цуглуулга тавьсан ч болно."
+    },
+    {
+     "t": "h",
+     "text": "Угаалгын өрөөнд"
+    },
+    {
+     "t": "p",
+     "text": "Алжаалаа тайлах төгс шийдэл хайж байна уу? Ванны өрөөндөө лаа асаангаа хөөстэй усанд хэвтэж, ядаргаагаа тайлаарай! Анхилам сайхан үнэртэй лаа байвал стрессийг улам бүр бууруулна. Угаалгын өрөөнд шилэн савтай лаа хамгийн тохиромжтой байдаг."
+    },
+    {
+     "t": "h",
+     "text": "Унтлагын өрөөнд"
+    },
+    {
+     "t": "p",
+     "text": "Орныхоо дэргэд лаа асаах нь таныг бат бөх, тайван амрахад тусалдаг. Унтлагын өрөө зөвхөн унтаж, амрахад зориулагдсан эд бус хүсэл тэмүүллийг бадраагч, романтик, бүтээлч орчин юм. Мөн босоо хувцасны шүүгээний дээр лааг гоёмсгоор өрж тавин, интерьертээ өнгө нэмээрэй! Энэ хэсэг хамгийн гоёмсог эдлэлүүдийн цуглуулга учир үнэртэй ус, ном, сэтгүүлтэй хоршуулан байрлуулж болно."
+    },
+    {
+     "t": "h",
+     "text": "Ил зуухны дэргэд"
+    },
+    {
+     "t": "p",
+     "text": "Хэрвээ танайх зусландаа хиймэл галын зуухтай бол урд нь лаа асааж, бодит орчныг бий болгоорой!"
+    },
+    {
+     "t": "p",
+     "text": "Зуухны дэргэд лааг коллекциор нь дагнан тавих эсвэл өндөр, нам хэмжээтэй лаа асаавал илүү гоёмсог, мэдрэмжтэй харагдана."
+    }
+   ]
+  },
+  {
+   "id": 12382,
+   "slug": "amoln-tand-sanal-bolgokh-3-turliin-laa",
+   "title": "AMOLN: ТАНД САНАЛ БОЛГОХ 3 төрлийн лаа",
+   "date": "2022-03-27",
+   "cover": {
+    "src": "/images/journal/amoln-tand-sanal-bolgokh-3-turliin-laa.webp",
+    "w": 1400,
+    "h": 668
+   },
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Та дэлхийд алдартай влогеруудын зургаас AMOLN брэндийн нэрийн хуудас болсон монохром өнгийн цэнхэр лааг харж байсан уу?"
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/amoln-tand-sanal-bolgokh-3-turliin-laa-1.webp",
+     "w": 500,
+     "h": 284
+    },
+    {
+     "t": "p",
+     "text": "Шведийн Малмоу хотоос үүсэлтэй Amoln лааны брэндийн \"Moln\" гэдэг үг нь Шведээр үүл гэсэн утгатай бөгөөд уг брэндийн үүсгэн байгуулагчид бүдэг цэнхэр өнгийг лаанууддаа шингээн, матт гадаргуутай савалгаатайгаар худалдаанд гаргажээ."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/amoln-tand-sanal-bolgokh-3-turliin-laa-2.webp",
+     "w": 500,
+     "h": 667
+    },
+    {
+     "t": "p",
+     "text": "Тиймдээ ч Amoln-ы лаануудыг асаах тэр мөчид диваажингийн мэт хэлбэр дүрс болон сүүдэр ажиглагддаг гэнэ. Amoln брэнд \"1945\", \"Barr\", \"Berrybomb\", \"Chado\", \"Kassett\", \"Sisu Bouquet\" гээд нийт зургаан төрлийн лааны сонголттой бөгөөд эдгээрийг асааснаар хэн бүхэн хүүхэд нас, Японы цайны ёслол, налгар зуны сэвэлзүүр салхитай үдэш, ид шидийн үлгэрийн ой зэрэг төсөөлшгүй гайхамшигтай аяллууд руу хөтлөгдөх болно."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/amoln-tand-sanal-bolgokh-3-turliin-laa-3.webp",
+     "w": 500,
+     "h": 239
+    },
+    {
+     "t": "p",
+     "text": "Бид таны сонголтод тус болох үүднээс ОНЦЛОХ 3 загварыг танилцуулж байна."
+    },
+    {
+     "t": "h",
+     "text": "1945"
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/amoln-tand-sanal-bolgokh-3-turliin-laa-4.webp",
+     "w": 500,
+     "h": 631
+    },
+    {
+     "t": "p",
+     "text": "1945 онд ОХИНДОО бичсэн ААВЫН захианаас улбаалан гарсан уг лаа нь дорнын сарнай, жүржийн цэцэг, зэрлэг мэлрэг цэцгийн үнэрийг өөртөө шингээсэн."
+    },
+    {
+     "t": "p",
+     "text": "Зуслангийн байшинд мод хөрөөдөн, цэцгийн хүлэмжиндээ ажиллаж, гарын сайхан хоолоо хийх аавтайгаа өнгөрүүлсэн зуны сайхан дурсамжийг сэдрээх \"1945\" лаа нь таны өдрийг гэрэлтүүлэх болно."
+    },
+    {
+     "t": "h",
+     "text": "Kassett"
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/amoln-tand-sanal-bolgokh-3-turliin-laa-5.webp",
+     "w": 500,
+     "h": 509
+    },
+    {
+     "t": "p",
+     "text": "80-90-ээд оны залуус кассет тоглуулагч, чихэвч зүүн гудамжаар нэг холхидог байсан. Тийм ээ, тэдний амьдралыг хөгжимгүйгээр, КАССЕТГҮЙГЭЭР төсөөлөхийн аргагүй. Энэ бол цаг хугацааг эргэн авчрах дахин давтагдашгүй үнэр юм."
+    },
+    {
+     "t": "p",
+     "text": "Найрлагадаа Грекийн инжир болон пачули ургамал, Исландын мод, усан мэлрэг цэцэг, галбанум, Төвд сарнай зэргийг хольж, хуучны үнэрийг дахин бий болгов."
+    },
+    {
+     "t": "h",
+     "text": "Sisu Bouquet"
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/amoln-tand-sanal-bolgokh-3-turliin-laa-6.webp",
+     "w": 500,
+     "h": 509
+    },
+    {
+     "t": "p",
+     "text": "Өдөр, шөнийн аль ч цагт таны сэтгэлийн амар амгаланг өгөх Sisi Bouquet лааны найрлагад маш ховор төрлийн цэцэгс, ургамлууд багтсан. Финландын гүн ухаантан болох Сисугийн нэрнээс санаа авсан уг лаа нь сараана, уулын цэцэг, заар, инжир модны навчнаас бүрддэг."
+    }
+   ]
+  },
+  {
+   "id": 11812,
+   "slug": "ankhilam-laa-ba-tsetsegsiin-khoslol",
+   "title": "АНХИЛАМ ЛАА БА ЦЭЦЭГСИЙН ХОСЛОЛ",
+   "date": "2022-03-05",
+   "cover": {
+    "src": "/images/journal/ankhilam-laa-ba-tsetsegsiin-khoslol.webp",
+    "w": 1400,
+    "h": 560
+   },
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Байгалийн нуугдсан гоо үзэсгэлэн бүхэн хавар цагт дэлбээгээ нээж, дахин шинээр төрдөг. Хавар цаг болсныг сануулах анхилам үнэрийг хадгалсан лааны цуглуулгуудыг танилцуулж байна. Эдгээр цуглуулга эерэг энерги, сайхан бодлыг тээхэд тань туслах болно."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/ankhilam-laa-ba-tsetsegsiin-khoslol-1.webp",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/ankhilam-laa-ba-tsetsegsiin-khoslol-2.webp",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "t": "p",
+     "text": "Эмэгтэйчүүдийн баярыг тохиолдуулан бүсгүй хүний тансаг илэрхийлэмж болсон ЛАА+ЦЭЦГИЙН БАГЛААТАЙ 3 төрлийн сонголттой багцыг худалдаанд гаргалаа."
+    },
+    {
+     "t": "p",
+     "text": "БАГЦ 1: 100,000₮ /Хайрцаг, хүргэлтийн үнэ тусдаа 10,000₮/"
+    },
+    {
+     "t": "p",
+     "text": "ХЭМЖЭЭ: 15x15x10"
+    },
+    {
+     "t": "p",
+     "text": "БАГЦ 2: 150,000₮ /Хайрцаг, хүргэлтийн үнэ тусдаа 10,000₮/"
+    },
+    {
+     "t": "p",
+     "text": "ХЭМЖЭЭ: 20x20x10"
+    },
+    {
+     "t": "p",
+     "text": "БАГЦ 3: 200,000₮ /Хайрцаг, хүргэлтийн үнэ тусдаа 10,000₮/"
+    },
+    {
+     "t": "p",
+     "text": "ХЭМЖЭЭ: 25x25x7"
+    },
+    {
+     "t": "h",
+     "text": "BASIC COLLECTION"
+    },
+    {
+     "t": "p",
+     "text": "Жимсний тансаг үнэрт умбангаа сэтгэлээ сэргээх дуртай хэн бүхэнд зориулсан BASIC COLLECTION"
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/ankhilam-laa-ba-tsetsegsiin-khoslol-3.webp",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/ankhilam-laa-ba-tsetsegsiin-khoslol-4.webp",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "t": "h",
+     "text": "MEMORIES COLLECTION"
+    },
+    {
+     "t": "p",
+     "text": "Парис хотын шөнийг санагдуулам тансаг үнэр, лаванда цэцгийн найрлагатай тайвшруулах лаа гэх мэт таны нандин дурсамжийг сэргээх MEMORIES COLLECTION-ыг танилцуулж байна."
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/ankhilam-laa-ba-tsetsegsiin-khoslol-5.webp",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/ankhilam-laa-ba-tsetsegsiin-khoslol-6.webp",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "t": "h",
+     "text": "MARBLE COLLECTION"
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/ankhilam-laa-ba-tsetsegsiin-khoslol-7.webp",
+     "w": 500,
+     "h": 667
+    },
+    {
+     "t": "img",
+     "src": "/images/journal/ankhilam-laa-ba-tsetsegsiin-khoslol-8.webp",
+     "w": 500,
+     "h": 667
+    }
+   ]
+  },
+  {
+   "id": 11392,
+   "slug": "cleopatra-collection",
+   "title": "CLEOPATRA COLLECTION",
+   "date": "2022-02-18",
+   "cover": {
+    "src": "/images/journal/cleopatra-collection.webp",
+    "w": 1200,
+    "h": 600
+   },
+   "blocks": [
+    {
+     "t": "p",
+     "text": "Төрөл бүрийн анхилуун цэцэгс болон ургамлуудаар баялаг цуглуулгыг танилцуулж байна. Дэлхийн түүхэнд гоо үзэсгэлэн, алдар нэр хүндээрээ гайхшруулж байсан Клеопатра хатны нэрээр нэрлэгдсэн уг цуглуулга танд омог бардам, үнэ цэнтэй мэдрэмжийг төрүүлнэ."
+    },
+    {
+     "t": "p",
+     "text": "\"Magnolia Blossom & Wood\" лаа нь бага зэрэг бергамот, алимны үнэртэй атлаа чихэрлэг биш, хэт хурц ч бас биш, мод болон цэцэгсийн байгалийн дулаан мэдрэмж юм. Харин \"Wood Bell\" лаа нь ойн модон дунд аялал хийж буй мэт сэрүүн мэдрэмж төрүүлэх бөгөөд яг л цэвэр агаар шиг сэтгэл сэргээх болно."
+    },
+    {
+     "t": "h",
+     "text": "Magnolia Blossom & Wood"
+    },
+    {
+     "t": "p",
+     "text": "Дээд үнэр: Бергамот, алим"
+    },
+    {
+     "t": "p",
+     "text": "Дунд үнэр: Замбага цэцэг, сарнай, нил ягаан цэцгийн навчис"
+    },
+    {
+     "t": "p",
+     "text": "Суурь үнэр: Пачули тос, хув, зандан мод"
+    },
+    {
+     "t": "h",
+     "text": "Wood Bell"
+    },
+    {
+     "t": "p",
+     "text": "Дээд үнэр: Кипарис"
+    },
+    {
+     "t": "p",
+     "text": "Дунд үнэр: Ветивер ургамал"
+    },
+    {
+     "t": "p",
+     "text": "Суурь үнэр: Сashmere wood, заар"
+    }
+   ]
+  }
+ ],
+ "about": {
+  "mn": [
+   "Гар урлалд дурлаж, өөрийн гараар хийх бүтээх гэсэн багын мөрөөдөл маань биеллээ олж, Candle Boutique-ийг үүсгэн байгуулсан билээ. Бүхий л төрлийн гар урлалыг сонирхдог байсан ч өөрийн гараар тосоо хайлуулж, хүссэн үнэртэнээ шингээн урласан лаанаас авах тэр мэдрэмжийг хаанаас ч дахин олж аваагүй ээ.",
+   "Хүүхэд насны мөрөөдөлдөө хүрэх тэмүүлэл маань өөрийгөө үгүйсгэх бодлыг минь ялан дийлж, 2020 оноос эхлэн байгуулагдсан Candle Boutique-ийн лаанууд хүн бүрийн сэтгэлд хүрч, дурсамж бүтээж эхэлсэн. Үнэрлэхүй мэдрэмж хүнд маш гүн гүнзгий дурсамж бий болгодог. Тиймээс л бид хэрэглэгч бүрийн сэтгэлийн чадвхдасыг хөндсөн, гайхалтай дурсамж үлдээхийн тулд олон төрлийн цуглуулга гаргахыг зорин шаргуу ажиллаж байна.",
+   "Бидний эрхэм зорилго бол эрхэм хүмүүн таныг лааны халуун дулаан шаргал туяанд уярааж, гайхамшигтай тансаг үнэрээр тайвшруулан, ажлын стрэссээ мартаж, өөрөө өөртөө багахан ч гэсэн цаг мөчийг бясалгал хийн өнгөрүүлэхэд тань туслах юм.",
+   "Бид зөвхөн байгальд ээлтэй шилэн савлагаа, ямар нэгэн синтетикийн хольцгүй цэвэр хөвөнгөөр хийсэн лааны гол хэрэглэдгээрээ давуу талтай. Candle Boutique зөвхөн лаанд дурлагсад төдийгүй лаанд дурлуулахад зориулан хамгийн сайн чанартай орц найрлагаар урладаг лаануудыг танд санал болгож байна."
+  ],
+  "en": [
+   "My long lasting passion for craft and handmade items became into a reality when the Candle Boutique was born. I enjoyed all types of crafts as a kid, however nothing beat the joy of creating my own handmade candle. There is a great sense of pleasure to melt the wax and integrate variety of lovely scents into each one of the carefully hand crafted candle.",
+   "Finally, my self doubt surrendered to the pursuit of my dream and people started to love the Candle Boutique candles as candles helped them to create distinct memories. Scents ignites very intense memories. That is why we strive to create candles that can capture and caress the souls through many different memorable scents. Our mission is to help you relax and forget about the daily stress and just to gift yourself some time to enjoy the lovely scents under the warm candle light.",
+   "Also, we proudly announce that we only use sustainable glass container and cotton wick with no synthetic compound. Candle Boutique is offering the candles made by using the best quaility ingredients for all the candle lovers out there."
+  ]
+ },
+ "aboutImage": {
+  "src": "/images/journal/about.webp",
+  "w": 788,
+  "h": 1400
+ },
+ "faq": [
+  {
+   "q": "ЛААНЫ ГОЛ УРТ БАЙХ ТУСАМ ЛАА ХУРДАН ДУУСДАГ БА ХАР ТОРТОГ ИХ ГАРДАГ",
+   "a": "Лааны гол урт байх тусам шаталт их явагдан лаа хурдан дуусдаг. Мөн гол урт байх тусам их тортог гардаг. Иймд, лаагаа унтраасны дараа эсхүл лаа асаахаасаа өмнө заавал голыг тайран богинос хэрэгтэй. Ингэснээр лаа маань шаталтын хугацаа уртсах ба илүү удаан хугацаанд хэрэглэнэ. Мөн хар тортог болон шилэн сав хэт халахаас хамгаална.Дараагийн нэг том зүйл бол асаасан лаагаа унтраах бүртээ лааны хэрэгслээр голыг дахин голлуулж байршуулснаар лааны шил хагарахаас сэргийлнэ."
+  },
+  {
+   "q": "ШИНЭ ЛААГ ХАМГИЙН БАГАДАА ХОЁР ЦАГ АСАА",
+   "a": "Шинэ болон хуучин лааг хэрхэн жигд асаан дуусгах вэ гэж зөндөө асуудаг. Гол учир нь лаа асаах үед тос тэгш бус хайлж эхлэх үед хэрэглэгч нар лааг унтраадаг. Энэ асуудлыг хэрхэн шийдэх вэ? Та шинээр авсан эсхүл хуучин лаагаа хамгийн багадаа 2-3 цаг асааснаар энэ асуудал шийдэгдэж дээд талын давхаргын тос бүрэн хайлж жигд асна ."
+  },
+  {
+   "q": "Лаа хаана үүссэн бэ?",
+   "a": "Хүн төрөлхтөн галыг гэрлийн эх үүсвэрээр хэрэглэж дадсан ба лааг 5000 жилээс илүү олон жил хэрэглэж байгаа боловч гарал үүсэл одоог хүртэл тодорхой мэдээлэл олдоогүй. Лааны хамгийн эртний хэрэглээг эртний египетчүүд ба ихэвчлэн малын хайлсан өөхөнд зэгсний нарийн цөмийг дэвтээж гэрэл эсвэл бамбар хийдэг байсан хэмээн түүхэнд тэмдэглэсэн байдаг."
+  }
+ ]
+}

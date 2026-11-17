@@ -1,0 +1,16 @@
+code,name,parentCode
+CB,Candle Boutique,
+CB-own,Candle Boutique лаа,CB
+CB-brand,Албан ёсны брэндүүд,CB
+CB-extra,"Refill, хэрэгсэл",CB
+CB-own-minimal,Minimal Collection,CB-own
+CB-own-basic,Basic Collection,CB-own
+CB-own-memories,Memories Collection,CB-own
+CB-own-marble,Marble Collection,CB-own
+CB-own-white,The White Collection,CB-own
+CB-own-matte-black,Matte Black Collection,CB-own
+CB-own-asa,ASA Collection,CB-own
+CB-brand-ldc,Lauren Dickinson Clarke,CB-brand
+CB-brand-amoln,Amoln,CB-brand
+CB-extra-refill,Refill,CB-extra
+CB-extra-tools,Лааны хэрэгсэл,CB-extra
