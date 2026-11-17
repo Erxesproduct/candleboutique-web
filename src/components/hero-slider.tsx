@@ -13,25 +13,23 @@ export type Slide = {
   product: { slug: string; name: string; thumb: string; price: number; collection: string } | null;
 };
 
-const EVERY = 5200;
+/** Each candle stays 6.5 s, then cross-fades for 2 s. No controls: it runs by itself. */
+const EVERY = 6500;
 
 /** The hero arch: the owner's banner, then own and brand candles, slowly cross-fading with a gentle zoom. */
 export function HeroSlider({ slides }: { slides: Slide[] }) {
   const [i, setI] = useState(0);
-  const [paused, setPaused] = useState(false);
 
   useEffect(() => {
-    if (paused || slides.length < 2) return;
-    const t = setInterval(() => {
-      if (!document.hidden) setI((n) => (n + 1) % slides.length);
-    }, EVERY);
-    return () => clearInterval(t);
-  }, [paused, slides.length]);
+    if (slides.length < 2) return;
+    const t = setTimeout(() => setI((n) => (n + 1) % slides.length), EVERY);
+    return () => clearTimeout(t);
+  }, [i, slides.length]);
 
   const card = slides[i].product;
 
   return (
-    <div className="relative" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
+    <div className="relative">
       <div className="halo breathe pointer-events-none absolute -inset-10 -z-10" aria-hidden />
       <div
         className="relative mx-auto aspect-[4/5] w-full max-w-[520px] overflow-hidden rounded-t-[999px] rounded-b-[28px] bg-linen shadow-[0_30px_80px_-30px_rgb(90_50_20/0.45)] ring-1 ring-glow/40"
@@ -40,7 +38,7 @@ export function HeroSlider({ slides }: { slides: Slide[] }) {
         aria-label="Онцлох лаанууд"
       >
         {slides.map((s, k) => (
-          <div key={s.src} className={`absolute inset-0 transition-opacity duration-[1400ms] ease-in-out ${k === i ? "opacity-100" : "opacity-0"}`} aria-hidden={k !== i}>
+          <div key={s.src} className={`absolute inset-0 transition-opacity duration-[2000ms] ease-in-out ${k === i ? "opacity-100" : "opacity-0"}`} aria-hidden={k !== i}>
             <Image src={s.src} alt={s.alt} fill priority={k === 0} sizes="(min-width: 768px) 46vw, 92vw" className={`object-cover ${k === i ? "kenburns" : ""}`} />
           </div>
         ))}
@@ -50,18 +48,13 @@ export function HeroSlider({ slides }: { slides: Slide[] }) {
         </p>
       </div>
 
-      <div className="mt-5 flex justify-center gap-2" role="tablist" aria-label="Слайд сонгох">
-        {slides.map((s, k) => (
-          <button
-            key={s.src}
-            type="button"
-            role="tab"
-            aria-selected={k === i}
-            aria-label={`${k + 1}-р зураг: ${s.label}`}
-            onClick={() => setI(k)}
-            className={`h-2 rounded-full transition-all duration-500 ${k === i ? "w-7 bg-ember" : "w-2 bg-sand hover:bg-glow"}`}
-          />
-        ))}
+      {/* how long until the next candle: a thin line that fills, not a control */}
+      <div className="mx-auto mt-5 flex max-w-[220px] items-center gap-3" aria-hidden>
+        <span className="tnum serif text-[13px] text-mute">{String(i + 1).padStart(2, "0")}</span>
+        <span className="relative h-[3px] flex-1 overflow-hidden rounded-full bg-sand">
+          <span key={i} className="slide-progress absolute inset-y-0 left-0 rounded-full bg-gradient-to-r from-glow to-ember" style={{ animationDuration: `${EVERY}ms` }} />
+        </span>
+        <span className="tnum serif text-[13px] text-mute">{String(slides.length).padStart(2, "0")}</span>
       </div>
 
       {card && (
