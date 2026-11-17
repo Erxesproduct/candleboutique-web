@@ -1,0 +1,3 @@
+code,name,type,uom,unitPrice,description
+DELIVERY-UB,Хүргэлт: Улаанбаатар хот,service,ш,5000,Захиалга баталгаажсанаас хойш 24 цагт
+DELIVERY-COUNTRYSIDE,Хүргэлт: орон нутаг,service,ш,5000,"Нэмэлт зардал, эрсдэлийг худалдан авагч хариуцна"

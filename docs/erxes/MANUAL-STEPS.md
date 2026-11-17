@@ -101,3 +101,31 @@ Zochil had no eBarimt setting for this shop (`regno: null`).
 
 Website (done): checkout asks «Хувь хүн» or «Байгууллага»; a company needs a 7-digit registry number, validated
 on the server.
+
+## 1.4 Delivery zones, fees and order statuses
+
+**Website (done)**, from the Zochil delivery settings and rules:
+
+| Option | Fee | Notes |
+| --- | --- | --- |
+| Улаанбаатар хот | 5,000₮ | «Хүргэлт захиалга баталгаажсанаас хойш 24 цагт хүргэгдэнэ» |
+| Орон нутаг | 5,000₮ | «Гарах зардал болон эрсдэлийг худалдан авагч тал хариуцна»; the address field asks for the town, bus and receiver |
+
+- Zochil had a single option «Улаанбаатар» 5,000₮ with countryside allowed (`delivery_is_countryside: 1`) and no
+  free-delivery limit. The website splits it in two so staff see which one it is; the fee is the same.
+- The server recomputes the fee; the browser cannot change it. All rules are in `src/content/business.ts`.
+
+**Confirm with Candle Boutique:**
+
+- Countryside: does the 5,000₮ cover taking the parcel to the bus, and the buyer pays the bus fare?
+- Pick-up from the POP-UP STORE (Central Tower, 2 давхар, Golden Pen Stationery, 7011-8866)? Zochil did not offer
+  it, so the website does not.
+- Opening hours of the pop-up store (not on Zochil or Facebook).
+- Free delivery above some amount? Zochil had none.
+
+**erxes (manual):**
+
+1. Import `docs/erxes/candleboutique-delivery.csv`: services `DELIVERY-UB` and `DELIVERY-COUNTRYSIDE`, 5,000₮ each.
+2. **Sales → Boards → «Онлайн захиалга» → pipeline «Вэбсайт»**, stages in order: Шинэ захиалга → Төлбөр хүлээгдэж
+   буй → Төлбөр баталгаажсан → Бэлтгэж байна → Хүргэлтэд гарсан → Хүргэгдсэн, plus «Цуцлагдсан».
+3. **Frontline → Forms → (order form) → Settings**: create a sales card in «Шинэ захиалга» for every submission.
