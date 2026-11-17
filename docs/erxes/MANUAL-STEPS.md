@@ -129,3 +129,24 @@ on the server.
 2. **Sales → Boards → «Онлайн захиалга» → pipeline «Вэбсайт»**, stages in order: Шинэ захиалга → Төлбөр хүлээгдэж
    буй → Төлбөр баталгаажсан → Бэлтгэж байна → Хүргэлтэд гарсан → Хүргэгдсэн, plus «Цуцлагдсан».
 3. **Frontline → Forms → (order form) → Settings**: create a sales card in «Шинэ захиалга» for every submission.
+
+## 1.5 Test order from cart to receipt
+
+**Verified on a local production build:**
+
+- `npm run test:order -- http://localhost:3388` passes 18 cases: empty cart, unknown product, sold-out product
+  (Ocean Mist), more than the stock (Minimal Green, 6), quantity over 20; city 5,000₮, countryside 5,000₮, a big
+  order still pays 5,000₮; missing address (city and countryside), unknown delivery, unknown payment; company
+  registry rejected and accepted; phone (incl. +976), email, honeypot.
+- Without erxes the order returns `503 not_configured` and the checkout shows the phone number, the reference code
+  (`CB-YYMMDD-XXXX`) and the total.
+
+Steps for a real test order:
+
+1. **Frontline → Forms → Create** «Вэбсайт захиалга» with fields Нэр, Утас, Имэйл, Захиалга. Copy the form id and
+   the field ids.
+2. In Vercel set `ERXES_API_URL`, `ERXES_ORDER_FORM_ID`, `ERXES_ORDER_FIELD_IDS`, then redeploy.
+3. Run `npm run test:order -- https://<production url> --send`. Expect **35,000₮**: 2 × Candle Match (5,000₮),
+   Wax Melt Burner (20,000₮) and 5,000₮ delivery.
+4. In erxes: find the submission and its card → send the QPay invoice and pay it → issue the eBarimt → move the card
+   to «Хүргэгдсэн» → void the test order.
