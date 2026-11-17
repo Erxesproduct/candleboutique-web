@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowIcon, ClockIcon, Flame, LeafIcon, PinIcon } from "@/components/icons";
+import { HeroSlider, type Slide } from "@/components/hero-slider";
+import { ArrowIcon, ClockIcon, Flame, LeafIcon, PinIcon, StarIcon, TruckIcon } from "@/components/icons";
 import { NotesPyramid } from "@/components/notes";
 import { ProductCard } from "@/components/product-card";
 import { business } from "@/content/business";
-import { banners, collections, faq, fromPrice, getProduct, inCollection, onSale, posts, products, soldOut } from "@/lib/catalog";
+import { banners, collections, faq, fromPrice, getCollection, getProduct, inCollection, onSale, posts, products, soldOut } from "@/lib/catalog";
 import { formatDate, formatPrice } from "@/lib/format";
 
 const FACTS = ["Шар буурцагны тос", "Цэвэр хөвөн гол", "5–8% анхилуун үнэр", "Гар аргаар цутгасан", "Шилэн, керамик сав", "2020 оноос"];
@@ -17,6 +18,22 @@ export default function Home() {
   const ldc = inCollection("ldc");
   const amoln = inCollection("amoln");
   const care = faq.filter((f) => !/үүссэн/.test(f.q));
+
+  // hero slides: the owner's banner first, then own and brand candles (one photo each)
+  const slide = (slug: string): Slide => {
+    const p = getProduct(slug)!;
+    const c = getCollection(p.collection)!;
+    return {
+      src: p.images[0].src,
+      alt: p.name,
+      label: c.group === "brand" ? `${c.name} · ${c.origin}` : c.name,
+      product: { slug: p.slug, name: p.name, thumb: p.images[0].thumb.src, price: p.price, collection: c.name },
+    };
+  };
+  const slides: Slide[] = [
+    ...(banner ? [{ src: banner.image.src, alt: "Candle Boutique лаа модон ширээн дээр", label: "Limited Edition", product: { slug: spotlight.slug, name: spotlight.name, thumb: spotlight.images[0].thumb.src, price: spotlight.price, collection: "Memories Collection" } }] : []),
+    ...["provocateur", "evening-in-paris", "sisu-bouquet", "dark-rose-amber", "prima-donna", "minimal-green", "kassett", "matte-black-intense", "rose"].map(slide),
+  ];
 
   return (
     <>
@@ -43,41 +60,26 @@ export default function Home() {
                 Цуглуулгууд
               </Link>
             </div>
-            <dl className="mt-10 grid max-w-md grid-cols-3 gap-4 border-t border-sand pt-6">
-              <div>
-                <dt className="text-[12.5px] text-mute">Өөрийн цуглуулга</dt>
-                <dd className="serif mt-0.5 text-2xl">{own.length}</dd>
-              </div>
-              <div>
-                <dt className="text-[12.5px] text-mute">Албан ёсны брэнд</dt>
-                <dd className="serif mt-0.5 text-2xl">2</dd>
-              </div>
-              <div>
-                <dt className="text-[12.5px] text-mute">Хүргэлт</dt>
-                <dd className="serif mt-0.5 text-2xl">24 цаг</dd>
-              </div>
-            </dl>
+            <ul className="mt-10 grid max-w-xl grid-cols-3 gap-2.5 sm:gap-4" aria-label="Товч мэдээлэл">
+              {[
+                { icon: <Flame size={16} still />, label: "Өөрийн цуглуулга", value: String(own.length), note: "гар аргаар" },
+                { icon: <StarIcon size={18} />, label: "Албан ёсны брэнд", value: "2", note: "Англи, Швед" },
+                { icon: <TruckIcon size={18} />, label: "Хүргэлт", value: "24 цаг", note: "Улаанбаатарт" },
+              ].map((s) => (
+                <li
+                  key={s.label}
+                  className="relative flex flex-col rounded-2xl border-2 border-glow bg-gradient-to-b from-cream to-wax px-3 pt-3 pb-3.5 shadow-[0_14px_34px_-18px_rgb(214_150_60/0.9)] sm:px-4 sm:pt-4"
+                >
+                  <span className="grid h-9 w-9 place-items-center rounded-full bg-glow/35 text-ember ring-1 ring-glow">{s.icon}</span>
+                  <span className="serif mt-3 text-[1.7rem] leading-none text-ink sm:text-[2.1rem]">{s.value}</span>
+                  <span className="mt-2 text-[12.5px] leading-tight font-semibold text-ink-2 sm:text-[13.5px]">{s.label}</span>
+                  <span className="mt-0.5 text-[11.5px] text-mute">{s.note}</span>
+                </li>
+              ))}
+            </ul>
           </div>
-          <div className="relative order-1 md:order-2">
-            <div className="halo breathe pointer-events-none absolute -inset-10 -z-10" aria-hidden />
-            <div className="relative mx-auto aspect-[4/5] w-full max-w-[520px] overflow-hidden rounded-t-[999px] rounded-b-[28px] shadow-[0_30px_80px_-30px_rgb(90_50_20/0.45)]">
-              {banner && <Image src={banner.image.src} alt="Candle Boutique лаа модон ширээн дээр" fill priority sizes="(min-width: 768px) 46vw, 92vw" className="object-cover" />}
-              <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-night/55 to-transparent" />
-              <p className="serif absolute bottom-5 left-6 text-lg text-cream italic">{banner?.title ? "Limited Edition" : ""}</p>
-            </div>
-            <Link
-              href={`/p/${spotlight.slug}`}
-              className="absolute -bottom-6 left-0 flex items-center gap-3 rounded-2xl bg-wax/95 p-2.5 pr-4 shadow-xl ring-1 ring-sand backdrop-blur sm:left-4 md:-left-8"
-            >
-              <span className="frame relative h-14 w-14 overflow-hidden rounded-xl">
-                <Image src={spotlight.images[0].thumb.src} alt="" fill sizes="56px" className="object-cover" />
-              </span>
-              <span>
-                <span className="block text-[11.5px] text-mute">Memories Collection</span>
-                <span className="serif block leading-tight">{spotlight.name}</span>
-                <span className="tnum text-[13.5px] font-semibold text-ember">{formatPrice(spotlight.price)}</span>
-              </span>
-            </Link>
+          <div className="order-1 md:order-2">
+            <HeroSlider slides={slides} />
           </div>
         </div>
       </section>

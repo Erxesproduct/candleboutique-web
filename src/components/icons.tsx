@@ -62,7 +62,12 @@ export const ClockIcon = ({ size, className }: P) => (
     <path d="M12 7.5V12l3 2" />
   </svg>
 );
-export const TrashIcon = ({ size, className }: P) => (
+export const StarIcon = ({ size, className }: P) => (
+  <svg {...base(size)} className={className}>
+    <path d="m12 3.5 2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.8l-5.2 2.8 1-5.8L3.5 9.7l5.9-.8L12 3.5Z" />
+  </svg>
+);
+export const TrashIcon =({ size, className }: P) => (
   <svg {...base(size)} className={className}>
     <path d="M5 7h14M10 7V5h4v2M7 7l1 13h8l1-13" />
   </svg>

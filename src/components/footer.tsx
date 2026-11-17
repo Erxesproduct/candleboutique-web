@@ -2,12 +2,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { business } from "@/content/business";
 import { collections } from "@/lib/catalog";
+import { CandleRow } from "./candle-row";
 import { FacebookIcon, Flame, InstagramIcon, MailIcon, PhoneIcon, PinIcon } from "./icons";
 
 export function Footer() {
   return (
-    <footer className="mt-24 bg-night text-cream/80">
-      <div className="wrap grid gap-10 py-14 md:grid-cols-[1.3fr_1fr_1fr_1.2fr]">
+    <footer className="relative mt-24 overflow-hidden bg-night text-cream/80">
+      {/* candlelight: lit candles on a ledge, their glow washing over the footer */}
+      <div className="glow-pulse pointer-events-none absolute top-0 left-1/2 h-[420px] w-[900px] max-w-[160%] -translate-x-1/2 rounded-full bg-[radial-gradient(closest-side,rgb(242_180_92/0.28),rgb(242_180_92/0.08)_60%,transparent)]" aria-hidden />
+      <div className="relative pt-10">
+        <CandleRow />
+        <div className="mx-auto h-3 max-w-2xl rounded-full bg-gradient-to-b from-[#5a4334] to-[#3a2c24] shadow-[0_10px_30px_-6px_rgb(242_180_92/0.35)]" aria-hidden />
+        <p className="serif mt-6 text-center text-xl text-cream/90 italic md:text-2xl">Гэрээ дулаан гэрлээр дүүргээрэй</p>
+      </div>
+      <div className="wrap relative grid gap-10 py-14 md:grid-cols-[1.3fr_1fr_1fr_1.2fr]">
         <div>
           <Image src="/brand/logo.png" alt={business.name} width={847} height={200} className="h-10 w-auto opacity-90 brightness-0 invert" />
           <p className="serif mt-5 text-xl text-cream italic">{business.tagline}</p>
@@ -67,7 +75,7 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-white/10">
+      <div className="relative border-t border-white/10">
         <div className="wrap flex flex-wrap items-center justify-between gap-3 py-5 text-[13px] text-cream/50">
           <p>© {new Date().getFullYear()} {business.name}, Улаанбаатар</p>
           <p className="flex items-center gap-1">
