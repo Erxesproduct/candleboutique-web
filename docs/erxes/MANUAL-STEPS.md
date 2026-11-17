@@ -71,3 +71,21 @@ Steps:
 - Is the −30% sale still running, and until when?
 - Are the 24 untracked products (LDC, Amoln, Marble, Matte Black …) really in stock?
 - Green Collection (96,000₮) is only sold as a refill on Zochil; is the full candle for sale?
+
+## 1.2 Payment setup (QPay)
+
+On Zochil, checkout was **disabled** (`checkout_status: disabled`, `has_qpay: false`); the shop has a Zochil-issued
+QPay merchant (`Z_CANDLEBOUTIQ`) that is not transferable. The payment rule: «Та төлбөрөө 100% урьдчилан
+шилжүүлснээр таны захиалга баталгаажих болно. Төлбөр дутуу хийгдсэн тохиолдолд хүргэлт хийгдэх боломжгүй».
+
+1. Get Candle Boutique's own QPay merchant credentials: `client_id`, `client_secret`, `invoice_code`.
+   Owner: Terbish / Candle Boutique.
+2. **Settings → Payments → Add → QPay**: enter the credentials.
+3. **Settings → Payments → (QPay) → Test**: create a 100₮ test invoice.
+4. **Sales → Pipelines → «Вэбсайт» → Settings → Payments**: select QPay.
+
+Website (done): checkout offers QPay only and shows the 100% prepayment rule; the receipt says the invoice will be
+sent to the phone.
+
+**Confirm with Candle Boutique:** the bank account for transfers (the Zochil SMS template referenced
+`{{bank_accounts}}`, but no account number is public).
